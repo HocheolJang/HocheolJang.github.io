@@ -32,8 +32,8 @@ categories: Thinking
 
 <br>
 <h4>2. lanyon 테마 설정했을 때</h4>
-<img src="https://i.ibb.co/djbT6h8/2020-08-12-12-02-53.png" alt="lanyon 테마 설정했을 때" border="1"></a>
+<img src="https://i.ibb.co/djbT6h8/2020-08-12-12-02-53.png" alt="lanyon 테마 설정했을 때" border="1">
 
 <br>
 <h4>3. 첫 포스팅 올렸을 때</h4>
-<img src="https://i.ibb.co/jWVrvKj/2020-08-13-10-34-26.png" alt="첫 포스팅 올렸을 때" border="1"></a>
+<img src="https://i.ibb.co/jWVrvKj/2020-08-13-10-34-26.png" alt="첫 포스팅 올렸을 때" border="1">
