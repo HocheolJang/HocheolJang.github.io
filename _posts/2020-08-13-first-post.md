@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello, World. It's my first posting!"
+title: "안녕하세요! 첫번째 포스팅입니다"
 date: 2020-08-13 22:26:28 -0400
 categories: Thinking
 ---
@@ -17,3 +17,20 @@ categories: Thinking
 
 루비 설치부터 테마입히고 포스팅하는데까지 돌아돌아왔습니다.
 아무것도 아니네~ 라고 할 수 있는 날이 빨리 오기를!
+
+<div>
+  Update(upload Capture)
+</div>
+
+<h4>블로그 처음 만들고, 지킬깔고, 첫화면 페이지</h4>
+<img class="posting-capture"
+     src="https://ibb.co/fVgdzB5">
+
+<h4>lanyon 테마 설정했을 때</h4>
+<img class="posting-capture"
+     src="https://ibb.co/9cwD2MQ">
+
+<h4>첫 포스팅 올렸을 때</h4>
+<img class="posting-capture"
+     src="https://ibb.co/QC8KFBx">
+
