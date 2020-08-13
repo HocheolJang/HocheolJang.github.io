@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Hocheol Jang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "안녕하세요~ 꾸준하게 성장하는 개발자가 되고싶습니다"
   location         : "Seoul, Republic of Korea"
-  email            : "daaan0415@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "daaan0415@gmail.com"
+      url: "mailto:daaan0415@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
