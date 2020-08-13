@@ -33,7 +33,8 @@
 최근 해외 주식을 하는 사람들이 많아졌다.  
 특히 미국으로 많은 자금이 몰려갔다
 
-<img src="http://image.kmib.co.kr/online_image/2020/0627/611411110014739012_1.jpg" alt="미국으로 가즈아~를 외치는 동학개미들" style="zoom:50%;" /><img src="/Users/hocheoljang/Desktop/스크린샷 2020-08-14 오전 2.28.42.png" style="zoom:20%;" />
+<img src="http://image.kmib.co.kr/online_image/2020/0627/611411110014739012_1.jpg" alt="미국으로 가즈아~를 외치는 동학개미들" style="zoom:50%;" />
+
 
 한국예탁결제원이 20일 발표한 ‘2020년 상반기 외화증권 거래 현황’ 자료를 보면, 외화증권 결제금액은 1424억달러로 지난해 연간 결제금액(1712억달러)의 83.2%에 달했다. 반기 기준 사상 최대치다. 주식 결제금액이 직전 반기 대비 209.5%, 채권 결제금액이 11.3% 증가해 국외 주식의 기여도가 컸다.
 *[출처 : 한겨레신문 테슬라 등 미국 주식 인기…외화증권 결제 사상 최대](http://www.hani.co.kr/arti/economy/economy_general/954366.html)*
@@ -47,7 +48,13 @@
 
 (그냥 생각나는 느낌대로 다 넣고있습니다. 조금씩 계속 정리할게요)  
 (이미지가 다 짤렸네요...다시 넣겠습니다)
-
+<img src="https://i.ibb.co/bdy0WcJ/2020-08-14-1-00-33.png" alt="2020-08-14-1-00-33" style="zoom:50%;">
+<img src="https://i.ibb.co/gVyM0wt/2020-08-14-1-00-47.png" alt="2020-08-14-1-00-47" style="zoom:50%;">
+<img src="https://i.ibb.co/Htp2PbY/2020-08-14-1-03-02.png" alt="2020-08-14-1-03-02" style="zoom:50%;">
+<img src="https://i.ibb.co/sJM3p0M/2020-08-14-12-55-49.png" alt="2020-08-14-12-55-49" style="zoom:50%;">
+<img src="https://i.ibb.co/wJ8nskw/2020-08-14-12-55-57.png" alt="2020-08-14-12-55-57" style="zoom:50%;">
+<img src="https://i.ibb.co/zrW2gwW/2020-08-14-12-58-43.png" alt="2020-08-14-12-58-43" style="zoom:50%;">
+<img src="https://i.ibb.co/Nr8BLS4/2020-08-14-12-58-57.png" alt="2020-08-14-12-58-57" style="zoom:50%;">
 
 ### 4.개발해야하는 페이지
 
