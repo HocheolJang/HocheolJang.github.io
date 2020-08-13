@@ -19,6 +19,7 @@
 우선 가칭으로 이렇게 두겠습니다.
 갑자기 이름이 바뀌어도 모르는척 해주세요!
 
+
 #### 2. 프로젝트 설명
 
 최근 해외 주식을 하는 사람들이 많아졌다.
@@ -33,12 +34,12 @@
 내 주식이 매일 어떻게 변하는 지 보기 편하면 좋으니까요.
 ~~(사실 내가 편하고싶어서 하는 것은 비밀...)~~
 
+
 #### 3. 프로젝트 레이아웃
 
 (그냥 생각나는 느낌대로 다 넣고있습니다. 조금씩 계속 정리할게요)
 
 (이미지가 다 짤렸네요...다시 넣겠습니다)
-
 
 
 #### 4. 개발해야하는 페이지
@@ -50,25 +51,21 @@
 더 잘되면 optional 페이지 붙여보겠습니다!
 
 - Sprint 1 (MVP version)
-
   - 대쉬보드 메인 페이지 (콤보차트, 원형차트, 선차트, 누적영역차트)
   - 내 포트폴리오 현황 (표)
   - 포트폴리오 입력 페이지 (ticker, 주식수, 평단가)
 
 - Spirnt 2 ~~(가 있을 지 모르겠지만..)~~
-
   - 일별 손익결산 (optional)
   - 월별 손익결산 (optional)
   - 매매일지 (optional)
 
 - Sprint 3 ~~(진짜 꿈이 크죠?)~~
-
   - 배당 현황 (optional)
   - 배당 일지 (optional)
   - 로그인 (optional)
-
-    
-
+  
+  
 #### 5. 개발해야하는 기능
 
 - 미국주식 API연동
@@ -79,6 +76,7 @@
   - 결산한 자료(일별수익금/수익률)를 다시 DB에 일별 데이터로 넣어야합니다
 - 또 뭐가 있을까요?
 
+
 #### 6. 프로젝트에 필요한 소스
 
 - [대시보드 부트스트랩](https://www.google.com/search?q=dashboard+bootstrap&oq=dashboard+boot&aqs=chrome.0.0j69i57j0l3j69i60l3.3753j0j7&sourceid=chrome&ie=UTF-8)
@@ -87,6 +85,7 @@
   - [Finnhub.io](https://finnhub.io/)
   - [Tiingo](https://www.tiingo.com/)
   - [IEX](https://iexcloud.io/)
+
 
 ##### 7. 개발 일정
 
@@ -99,26 +98,26 @@
 
 - 2주차 (2020/08/17 ~ 2020/08/23)
 
-  - Front-end
+  Front-end
    - [ ] 대시보드 페이지 구성
    - [ ] 일단 이렇게 써둘게요
 
-  - Back-end
+  Back-end
    - [ ] AWS 서버 구성
    - [ ] 블라블라
 
-  - DB
+  DB
    - [ ] DB도 어떻게 해야겠죠?
 
 - 3주차 (2020/08/24 ~ 2020/08/30)
 
-  - Front-end
+  Front-end
    - [ ] 대시보드 페이지 구성
    - [ ] 일단 이렇게 써둘게요
-  - Back-end
+  Back-end
    - [ ] 서버 구성
    - [ ] 블라블라
-  - DB
+  DB
    - [ ] DB도 어떻게 해야겠죠?
 
 - 4주차 (2020/08/31 ~ 2020/09/01)
@@ -127,10 +126,8 @@
    - [ ] 서비스 오픈 (2020/9/2)
 
 
-
 #### 8. 참고페이지
 
 - [더리치](https://www.therich.io/home)
-- [Webull](https://app.webull.com/watch)
-- 
+- [Webull](https://app.webull.com/watch) 
 
