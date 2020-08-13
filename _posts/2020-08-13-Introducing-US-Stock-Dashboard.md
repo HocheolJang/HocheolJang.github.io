@@ -47,14 +47,14 @@
 ### 3.프로젝트 레이아웃
 
 (그냥 생각나는 느낌대로 다 넣고있습니다. 조금씩 계속 정리할게요)  
-(이미지가 다 짤렸네요...다시 넣겠습니다)
-<img src="https://i.ibb.co/bdy0WcJ/2020-08-14-1-00-33.png" alt="2020-08-14-1-00-33" style="zoom:50%;">
-<img src="https://i.ibb.co/gVyM0wt/2020-08-14-1-00-47.png" alt="2020-08-14-1-00-47" style="zoom:50%;">
-<img src="https://i.ibb.co/Htp2PbY/2020-08-14-1-03-02.png" alt="2020-08-14-1-03-02" style="zoom:50%;">
-<img src="https://i.ibb.co/sJM3p0M/2020-08-14-12-55-49.png" alt="2020-08-14-12-55-49" style="zoom:50%;">
-<img src="https://i.ibb.co/wJ8nskw/2020-08-14-12-55-57.png" alt="2020-08-14-12-55-57" style="zoom:50%;">
-<img src="https://i.ibb.co/zrW2gwW/2020-08-14-12-58-43.png" alt="2020-08-14-12-58-43" style="zoom:50%;">
-<img src="https://i.ibb.co/Nr8BLS4/2020-08-14-12-58-57.png" alt="2020-08-14-12-58-57" style="zoom:50%;">
+
+<img src="https://i.ibb.co/zrW2gwW/2020-08-14-12-58-43.png" alt="2020-08-14-12-58-43" style="zoom:30%;">
+<img src="https://i.ibb.co/Nr8BLS4/2020-08-14-12-58-57.png" alt="2020-08-14-12-58-57" style="zoom:30%;">
+<img src="https://i.ibb.co/bdy0WcJ/2020-08-14-1-00-33.png" alt="2020-08-14-1-00-33" style="zoom:30%;">
+<img src="https://i.ibb.co/gVyM0wt/2020-08-14-1-00-47.png" alt="2020-08-14-1-00-47" style="zoom:30%;">
+<img src="https://i.ibb.co/Htp2PbY/2020-08-14-1-03-02.png" alt="2020-08-14-1-03-02" style="zoom:30%;">
+<img src="https://i.ibb.co/sJM3p0M/2020-08-14-12-55-49.png" alt="2020-08-14-12-55-49" style="zoom:30%;">
+<img src="https://i.ibb.co/wJ8nskw/2020-08-14-12-55-57.png" alt="2020-08-14-12-55-57" style="zoom:30%;">
 
 ### 4.개발해야하는 페이지
 
