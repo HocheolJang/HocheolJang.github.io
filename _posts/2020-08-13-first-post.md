@@ -23,18 +23,17 @@ categories: Thinking
   추억이니까 나둬야지
 </span>
 
-<h3>
+<h2>
   Update(upload Capture)
-</h3>
+</h2>
 
-<br>
-<h4>블로그 처음 만들고, 지킬깔고, 첫화면 페이지</h4>
+<h4>1. 블로그 처음 만들고, 지킬깔고, 첫화면 페이지</h4>
 <img src="https://i.ibb.co/Fkr4LNM/2020-08-12-12-01-35.png" alt="첫화면 기본페이지" border="10">
 
 <br>
-<h4>lanyon 테마 설정했을 때</h4>
+<h4>2. lanyon 테마 설정했을 때</h4>
 <img src="https://i.ibb.co/djbT6h8/2020-08-12-12-02-53.png" alt="lanyon 테마 설정했을 때" border="10"></a>
 
 <br>
-<h4>첫 포스팅 올렸을 때</h4>
+<h4>3. 첫 포스팅 올렸을 때</h4>
 <img src="https://i.ibb.co/jWVrvKj/2020-08-13-10-34-26.png" alt="첫 포스팅 올렸을 때" border="10"></a>
