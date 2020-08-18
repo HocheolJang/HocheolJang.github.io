@@ -5,17 +5,15 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "연도별 포스트"
-    url: /posts/
+    url: /year-archive/
+#    url: /posts/
 
-
-#  - title: "About"
-#    url: /about/
-# - title: "Quick-Start Guide"
-#  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
 # - title: "Sample Posts"
 #   url: /year-archive/
+
 # - title: "Sample Collections"
 #   url: /collection-archive/
+
 # - title: "Sitemap"
 #   url: /sitemap/
