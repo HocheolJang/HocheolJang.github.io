@@ -1,8 +1,13 @@
 ---
-layout: post
-title: "안녕하세요! 첫번째 포스팅입니다"
-date: 2020-08-13 22:26:28 -0400
-comments: true
+title:  "안녕하세요! 첫번째 포스팅입니다"
+excerpt: "설레는 첫 포스팅"
+
+categories:
+  - Thinking
+tags:
+  - 생각
+  - Github
+  - 개발
 ---
 
 # Welcome
