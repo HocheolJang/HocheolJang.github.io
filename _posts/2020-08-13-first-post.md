@@ -2,7 +2,9 @@
 layout: post
 title: "안녕하세요! 첫번째 포스팅입니다"
 date: 2020-08-13 22:26:28 -0400
-categories: Thinking
+categories: [Thinking]
+tags: [Thinking]
+comments: true
 ---
 
 # Welcome
