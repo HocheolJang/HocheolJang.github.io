@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Hocheol Jang's Blog"
 title_separator          : "-"
-subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
+subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "Hocheol Jang (Dan) "
 description              : "Hello, World. Nice to meet you. I am Hochol Jang"
 url                      : "https://hocheoljang.github.io/"
@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "장호철"
-  avatar           : "https://github.com/HocheolJang/HocheolJang.github.io/blob/master/assets/images/profile/poto.JPG"
-  bio              : "안녕하세요~ 꾸준하게 성장하는 개발자가 되고싶습니다"
+  avatar           : "/assets/images/profile/poto.JPG"
+  bio              : "안녕하세요. 꾸준하게 성장하는 개발자, 좋은 영향력을 전달하는 개발자가 되고싶습니다"
   location         : "Seoul, Republic of Korea"
   email            : "daaan0415@gmail.com"
   links:
