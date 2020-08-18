@@ -281,7 +281,7 @@ defaults:
       share: true
       related: true
 
- 에러가 자꾸나와서 일단 홀딩
+# 에러가 자꾸나와서 일단 홀딩
 # _pages
   - scope:
       path: "_pages"
