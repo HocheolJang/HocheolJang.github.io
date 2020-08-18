@@ -281,11 +281,11 @@ defaults:
       share: true
       related: true
 
-# 에러가 자꾸나와서 일단 홀딩
-## _pages
-#  - scope:
-#      path: "_pages"
-#      type: pages
-#    values:
-#      layout: single
-#      author_profile: true
+ 에러가 자꾸나와서 일단 홀딩
+# _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
