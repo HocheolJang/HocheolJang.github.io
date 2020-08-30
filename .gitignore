@@ -315,3 +315,5 @@ pip-selfcheck.json
 .history
 
 # End of https://www.gitignore.io/api/flask,venv,visualstudiocode,jetbrains+all
+US_Stock/
+.idea/vcs.xml
