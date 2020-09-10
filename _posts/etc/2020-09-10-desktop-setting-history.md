@@ -46,9 +46,7 @@ comments: true
 
 - 모니터암을 책상 끝의 우측으로 변경; 확실히 테이블(특히 모니터 밑)이 더 깔끔해진 느낌!
 
-- 듀얼모니터 (모니터 + 맥북 모드) ; 여전히 해상도차이로 인해 눈이 쉽게 피로해짐.
-
-  모니터 보다가 맥북을 보면 갑자기 동공의 크기가 바뀌는 느낌이랄까...(예민보스)
+- 듀얼모니터 (모니터 + 맥북 모드) ; 여전히 해상도차이로 인해 눈이 쉽게 피로해짐. 모니터 보다가 맥북을 보면 갑자기 동공의 크기가 바뀌는 느낌이랄까...(예민보스)
 
   <a href="https://ibb.co/Bnx12nY"><img src="https://i.ibb.co/MB4XkBJ/IMG-0953.jpg" alt="IMG-0953" border="0"></a>
 
@@ -89,15 +87,30 @@ comments: true
 #### 2.1 키보드
 - [레오폴드 FC900R PD(갈축)](https://search.shopping.naver.com/search/all?query=%EB%A0%88%EC%98%A4%ED%8F%B4%EB%93%9C+fc900r&frm=NVSCPRO&bt=0) (2017.11월쯤 ~ 2020.03.31)
     <a href="https://ibb.co/3RSkPmv"><img src="https://i.ibb.co/NTW7G2r/IMG-9788.jpg" alt="IMG-9788" border="0"></a>
-    - 뭔가 사무실에서 하루종일 일하는 날위해 선물을 하고싶었다. 키캡도 용산전자상가에 가서 직접 사오고 그 이후에 포인트 키캡들까지
-    전부 애정을 가지고 투자했던 내 첫 키보드. 그 당시에는 정말 고민 많이해보고 샀던 키보드. 용산 전자상가에 가서 적축, 갈축, 청축 다 쳐보면서 고른 키보드.
-    집에서는 청축을 썼는데 소리가 너무 시끄러워서 사무실에서 쓰긴 어려웠다. 갈축은 적당한 소음과 적당한 타격감이 있어서 좋았다.
+    - 레오폴드 FC900R PD + Dolch 측각(영문) + 염료승화 포인트 키캡
+    - 때는 2017년 사무실에서 하루종일 일하는 나를 위해 선물을 하고싶었다. 모니터, 노트북은 회사에서 주니까 키보드만이 오롯이 내 선택지에 있었다.
+    키보드에 대해 찾아보고 관심이 생길 즈음에 개발자 층에 올라간 나는 기겁했다. 키보드의 끝판왕이라고 불리는 리얼포스 무접점키보드가 널려있었다.
+    균등, 차등, 텐키리스, 텐키포함 뭐 수많은 키보드의 향연을 볼 수 있었다. 물론 그 중의 일부는 회사에서 주는 2만원짜리 키보드를 사용하는 사람도 있었지만...
+    어쨌든 나도 키보드를 사고샆다고 마음을 먹은 후 용산전자상가로 향했다. 적축, 갈축, 청축, 백축, 흑축, 무접점까지 직접 타이핑하며 타건감을 느끼려 노력했다.
+    당시는 겨울이었는데도 나는 뭔가 설레는 마음과 최대한 많이 쳐봐야한다는 압박감에 땀을 엄청 흘렸던 기억이 난다.      
+    최종 결정은 레오폴드 FC900R PD 갈축에 Dolch 키캡을 샀다. 당시에는 정말 비싸다는 생각에 많은 고민을 하고 샀던 내 키보드.
+    쫀득쫀득하면서도 탁탁탁 치는 그 타건감과 사무실에서 적당히 퍼지는 소음은 아주 훌륭한 선택이었다고 생각한다.
+    사실 리얼포스도 관심은 있었지만 당시에는 너무 비싸다고 생각했기에 한 번에 거기까지 가는건 오바라고 생각했다.
+    잘 썼는데 노트북을 애플로 바꾸면서 연결해서 쓰니 뭔가 너무 어색하더라. 펑션키, 커맨드키 등 많은 것이 어색했고 다음 키보드를 위해 보내주는게 맞다고 생각했다.
+    2020년 9월, 중고나라를 통해 구로역에서 근무하시는 한 여성분께서 가져가셨다.
+
 - [애플 매직키보드](https://www.apple.com/kr/shop/product/MQ5L2KH/A/magic-keyboard-%ED%95%9C%EA%B5%AD%EC%96%B4) (2020.06.04 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    - 예쁘다. 하얀 책상에 찰떡임.
+    - 키캡이 너무 낮아서 뭔가 적응이 되는듯하면서도 잘 안된다.
+    - 생각보다 오타가 자주난다.
+    - 그래도 무선으로 쓰는건 너무 좋은 것같다. (이 땅의 모든 케이블이 사라지는 그 날까지 하드웨어 개발자들이여 화이팅!)
+    
 #### 2.2 마우스(트랙패드)
 - [로지텍 M331 무소음마우스](https://search.shopping.naver.com/detail/detail.nhn?nvMid=10502482718&query=%EB%A1%9C%EC%A7%80%ED%85%8D%20m331&NaPm=ct%3Dkewqjjhs%7Cci%3Dffb39cae328eaa878962282bef05bfdf8fd347df%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D6ae7e4597b8b765f29a77164221444d48e2c6176) (2020.07.14 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
-    - 애플 매직마우스 빌려서 써봤지만 생각보다 별로더라.
+    - 애플 매직마우스를 쓸까 생각도 했다. 그래서 아랫집 사는 전직장 동료에게 빌려서 며칠 써봤지만 생각보다 별로더라.
+    - 
 - [매직 트랙패드2](https://www.apple.com/kr/shop/product/MJ2R2KH/A/magic-trackpad-2-%EC%8B%A4%EB%B2%84) (2020.06.04 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJ2R2?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=0" border="0">
 
@@ -112,14 +125,39 @@ comments: true
     4. 저렴한 가격
     
     - 그러나 현실은 달랐다. 배송을 받고 모니터를 설치했는데 해상도가 엉망...글자가 다 깨짐 ㅜㅜ
-    그래서 구글을
+    그래서 구글링하며 해결책을 찾으려 했지만 모든 방법들은 다 실패. 내가 원하는 수준까지 전혀 개선되지않았다.
+    사실 그 사람들이 쓴 글들을 보면 마치 드라마틱한 변화가 있었던 것처럼 썼던데, 내가 따라해봤을 때는 전혀 그렇지 않았다.
+    그래서 커뮤니티에 글을 올렸다. [모니터 해상도(글자깨짐)로 인해 올렸던 고민글](https://okky.kr/article/759243)
     
-    - [모니터 해상도(글자깨짐)로 인해 올렸던 고민글](https://okky.kr/article/759243)
-    - [모니터 바꾸고 감사의 인사로 쓴 글](https://okky.kr/article/759725)
+    많은 분들이 모니터 바꾸면 괜찮다고 해서 바로 4K 모니터를 질렀다.
+    윈도우 노트북에 꽂아보니 좋긴했는데 맥북에는 뭔가 화질이 안맞았다. 맥북의 해상도에 FHD모니터를 끼우니 체급이 다른 느낌이랄까...?
+    헤비급 선수와 라이트급 선수가 만난 느낌...? 게임이 안됐다...
     
 - [알파스캔 U2790](https://www.alphascan.co.kr/page.php?LinkPage=product_view&Code=20200605173748) (2020.08.13 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">    
 
+    4K 모니터로 마음을 굳힌 이후에 LG랑 알파스캔 고민했는데 알파스캔에 대한 좋은 평을 워낙 많이 들어서 한 번 써보자싶어 주문하고 바로 퀵으로 받았다.
+    받자마자 진짜 소리를 질렀다. 악!!! 진짜 델보다 훨씬 좋잖아!!!! ~~(물론 델 모니터보다 2배 비쌌다. 그리고 Dell의 비슷한 가격대 모니터를 사면 똑같이 좋다고 하더라)~~
+    맥북에 꽂자마자 너무 좋아서 또 글을 올렸다. [모니터 바꾸고 감사의 인사로 쓴 글](https://okky.kr/article/759725)
+    행동력이 빠르다고 칭찬을 들었다...아니 그 상태로 참고 또 고통받는 그 시간이 너무 아까웠다.
+    아래 화면을 보면 느껴질지 모르겠다. 미세한 차이라면 미세하지만 글의 가독성이 너무 큰 차이가 남.
+    
+    - Before & After
+        - IDE 화면    
+        1. Before (Dell P2719H)     
+        <a href="https://ibb.co/xmLZvFk"><img src="https://i.ibb.co/bHmthb0/2020-08-13-6-34-42.png" alt="2020-08-13-6-34-42" border="0"></a>
+        2. After (AOC U2790)     
+        <a href="https://ibb.co/DVhT8wb"><img src="https://i.ibb.co/qyKVWmn/2020-08-13-6-34-57.png" alt="2020-08-13-6-34-57" border="0"></a>      
+                
+        - 스프레드시트
+        1. Before (Dell P2719H)     
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/9ZK3Vbw/2020-08-13-6-37-44.png" alt="2020-08-13-6-37-44" border="0"></a>        
+        2. After (AOC U2790)      
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/7CxCmd9/2020-08-13-6-37-58.png" alt="2020-08-13-6-37-58" border="0"></a>    
+    
+    - 해상도와 화면의 질의 차이가 느껴지는가? 안느껴진다면 어쩔 수 없다. 나는 이 모니터를 사고 대대대대대만족을 했다.
+    알파스캔에 대한 호감도 확 상승! 다음에도 기회가 있으면 알파스캔을 사겠다!
+    
 - [LG 27UL650](https://www.lge.co.kr/lgekor/product/pc/monitor/productDetail.do?cateId=2410&prdId=EPRD.344674) (2020.09.06 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 
