@@ -19,7 +19,7 @@ comments: true
     - [ver 2.0](#ver-20-2020년-9월-6일일)
 - [2.장비](#2-장비)
     - [2.1 키보드](#21-키보드)
-    - [2.2 마우스](#22-마우스트랙패)
+    - [2.2 마우스/트랙패드](#22-마우스트랙패드)
     - [2.3 모니터](#23-모니터)
     - [2.4 맥북](#24-맥북)
     - [2.5 악세사리](#25-악세사리)
@@ -87,33 +87,44 @@ comments: true
 ### 2. 장비
 
 #### 2.1 키보드
-- 레오폴드 FC900R PD(갈축) (2017.11월쯤 ~ 2020.03.31)
-- 애플 매직키보드 (2020.06.04 ~ 현재)
+- [레오폴드 FC900R PD(갈축)](https://search.shopping.naver.com/search/all?query=%EB%A0%88%EC%98%A4%ED%8F%B4%EB%93%9C+fc900r&frm=NVSCPRO&bt=0) (2017.11월쯤 ~ 2020.03.31)
+
+- [애플 매직키보드](https://www.apple.com/kr/shop/product/MQ5L2KH/A/magic-keyboard-%ED%95%9C%EA%B5%AD%EC%96%B4) (2020.06.04 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 #### 2.2 마우스(트랙패드)
-- 로지텍 M331 무소음마우스 (2020.07.14 ~ 현재)
-
+- [로지텍 M331 무소음마우스](https://search.shopping.naver.com/detail/detail.nhn?nvMid=10502482718&query=%EB%A1%9C%EC%A7%80%ED%85%8D%20m331&NaPm=ct%3Dkewqjjhs%7Cci%3Dffb39cae328eaa878962282bef05bfdf8fd347df%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D6ae7e4597b8b765f29a77164221444d48e2c6176) (2020.07.14 ~ 현재)
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
     - 애플 매직마우스 빌려서 써봤지만 생각보다 별로더라.
-- 트랙패드2 (2020.06.04 ~ 현재)
+- [매직 트랙패드2](https://www.apple.com/kr/shop/product/MJ2R2KH/A/magic-trackpad-2-%EC%8B%A4%EB%B2%84) (2020.06.04 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJ2R2?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=0" border="0">
 
 #### 2.3 모니터
-- DELL (2020.08.11 ~ 2020.08.13)
-- 알파스캔 U2790 (2020.08.13 ~ 현재)
-- LG 27UL650 (2020.09.06 ~ 현재)
+- [DELL P2719H](https://www.dell.com/ko-kr/shop/dell-27-%EB%AA%A8%EB%8B%88%ED%84%B0-p2719h/apd/210-aqbg/%EB%AA%A8%EB%8B%88%ED%84%B0-%EB%B0%8F-%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%95%A1%EC%84%B8%EC%84%9C%EB%A6%AC) (2020.08.11 ~ 2020.08.13)
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+- [알파스캔 U2790](https://www.alphascan.co.kr/page.php?LinkPage=product_view&Code=20200605173748) (2020.08.13 ~ 현재)
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+- [LG 27UL650](https://www.lge.co.kr/lgekor/product/pc/monitor/productDetail.do?cateId=2410&prdId=EPRD.344674) (2020.09.06 ~ 현재)
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 
 #### 2.4 맥북
-- 13인치 맥북프로 (2020.07.31 ~ 현재)
+- [MacbookPro 13인치](https://www.apple.com/kr/shop/buy-mac/macbook-pro/13%ED%98%95-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EA%B7%B8%EB%A0%88%EC%9D%B4-2.0ghz-%EC%BF%BC%EB%93%9C-%EC%BD%94%EC%96%B4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C(%EC%B5%9C%EB%8C%80-3.8ghz-turbo-boost)-512gb?afid=p238%257CsrvqLW4Dz-dc_mtid_18707vxu38484_pcrid_456213065402_pgrid_16348500921_&cid=aos-kr-kwgo-mac--slid---product--#) (2020.07.31 ~ 현재)
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 
 #### 2.5 악세사리
 - 맥북거치대
-    - 애니클리어 AP-2 (2020.08.10 ~ 2020.08.23)
-    - 크리에이트 T3 (2020.08.18 ~ 현재)
-    - 애니클리어 AP-6 (2020.09.10 ~ 현재)
+    - [애니클리어 AP-2](https://search.shopping.naver.com/detail/detail.nhn?nvMid=10554552559&query=%EC%95%A0%EB%8B%88%ED%81%B4%EB%A6%AC%EC%96%B4%20ap-2&NaPm=ct%3Dkewqodvk%7Cci%3D32ac150b4fa59b30b8c98c51706dabf2bfa9c52f%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D1d757cbace53c02318999ece861306797b78343c) (2020.08.10 ~ 2020.08.23)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    - [크리에이트 T3](https://smartstore.naver.com/kreate/products/4903410659?NaPm=ct%3Dkewqpeww%7Cci%3Db4721629ac54db2007ef7a650c5c40ce7b659b90%7Ctr%3Dslsl%7Csn%3D1241461%7Chk%3D39f24dfaf0f546dd927fafc7bd08e66801969e7e) (2020.08.18 ~ 현재)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    - [애니클리어 AP-6](https://search.shopping.naver.com/detail/detail.nhn?nvMid=13137266790&query=%EB%A7%A5%EB%B6%81%20%EA%B1%B0%EC%B9%98%EB%8C%80&NaPm=ct%3Dkewqqdmw%7Cci%3D17f0b12a361331c7947608d715d727c6170a7e16%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D1e7a905821b7642f1a1c55561b85ff31fb43a1e7) (2020.09.10 ~ 현재)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 - 허브 / 독
-    - 베이스어스 C타입 허브 (2020.08.09 ~ 현재)
-    - 벨킨 썬더볼트3 독 프로 (2020.09.08 ~ 현재)
+    - [베이스어스 C타입 허브](http://www.baseuskorea.co.kr/product/%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%96%B4%EC%8A%A4-%EB%B0%B4%EB%93%9C%EC%95%B5%EA%B8%80-no7-c%ED%83%80%EC%9E%85-%EB%A9%80%ED%8B%B0-%ED%97%88%EB%B8%8C%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C34%EC%84%B8%EB%8C%80%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C/529/category/79/display/1/) (2020.08.09 ~ 현재)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    - [벨킨 썬더볼트3 독 프로](https://smartstore.naver.com/mdigg01/products/4811591730?NaPm=ct%3Dkewqrxyo%7Cci%3D0yK0000c4jDtofdYr1oM%7Ctr%3Dpla%7Chk%3D343a1699c1fa1160c87625929ef065c3503ccb16) (2020.09.08 ~ 현재)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 - 모니터암
-    - 카멜마운트 CMA-2P (2020.08.11 ~ 현재)
+    - [카멜마운트 CMA-2P](https://search.shopping.naver.com/detail/detail.nhn?cat_id=50006203&nv_mid=22023989449&query=%EC%B9%B4%EB%A9%9C%EB%A7%88%EC%9A%B4%ED%8A%B8&bt=0&frm=NVSCPRO&NaPm=ct%3Dkewqsiso%7Cci%3D17e5f6dd725f5530b87b88cd3e3c76b222701ff1%7Ctr%3Dsls%7Csn%3D95694%7Chk%3Dd35f257abd20cbf86e70b18616862184064ddc91) (2020.08.11 ~ 현재)
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
  
     
