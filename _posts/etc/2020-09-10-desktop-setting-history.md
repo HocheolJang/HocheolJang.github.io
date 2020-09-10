@@ -88,7 +88,10 @@ comments: true
 
 #### 2.1 키보드
 - [레오폴드 FC900R PD(갈축)](https://search.shopping.naver.com/search/all?query=%EB%A0%88%EC%98%A4%ED%8F%B4%EB%93%9C+fc900r&frm=NVSCPRO&bt=0) (2017.11월쯤 ~ 2020.03.31)
-
+    <a href="https://ibb.co/3RSkPmv"><img src="https://i.ibb.co/NTW7G2r/IMG-9788.jpg" alt="IMG-9788" border="0"></a>
+    - 뭔가 사무실에서 하루종일 일하는 날위해 선물을 하고싶었다. 키캡도 용산전자상가에 가서 직접 사오고 그 이후에 포인트 키캡들까지
+    전부 애정을 가지고 투자했던 내 첫 키보드. 그 당시에는 정말 고민 많이해보고 샀던 키보드. 용산 전자상가에 가서 적축, 갈축, 청축 다 쳐보면서 고른 키보드.
+    집에서는 청축을 썼는데 소리가 너무 시끄러워서 사무실에서 쓰긴 어려웠다. 갈축은 적당한 소음과 적당한 타격감이 있어서 좋았다.
 - [애플 매직키보드](https://www.apple.com/kr/shop/product/MQ5L2KH/A/magic-keyboard-%ED%95%9C%EA%B5%AD%EC%96%B4) (2020.06.04 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 #### 2.2 마우스(트랙패드)
@@ -100,9 +103,23 @@ comments: true
 
 #### 2.3 모니터
 - [DELL P2719H](https://www.dell.com/ko-kr/shop/dell-27-%EB%AA%A8%EB%8B%88%ED%84%B0-p2719h/apd/210-aqbg/%EB%AA%A8%EB%8B%88%ED%84%B0-%EB%B0%8F-%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%95%A1%EC%84%B8%EC%84%9C%EB%A6%AC) (2020.08.11 ~ 2020.08.13)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    <img src="https://img.danawa.com/prod_img/500000/449/469/img/6469449_1.jpg?shrink=500:500&_v=20180917150812" border="0">
+    
+    - 구매를 결정하게 된 이유
+    1. 24인치 vs 27인치 고민중에 거거익선이라고 27인치 선택
+    2. 맥북과 호환성이 좋다고하는 글들
+    3. 피벗 스탠드을 지원
+    4. 저렴한 가격
+    
+    - 그러나 현실은 달랐다. 배송을 받고 모니터를 설치했는데 해상도가 엉망...글자가 다 깨짐 ㅜㅜ
+    그래서 구글을
+    
+    - [모니터 해상도(글자깨짐)로 인해 올렸던 고민글](https://okky.kr/article/759243)
+    - [모니터 바꾸고 감사의 인사로 쓴 글](https://okky.kr/article/759725)
+    
 - [알파스캔 U2790](https://www.alphascan.co.kr/page.php?LinkPage=product_view&Code=20200605173748) (2020.08.13 ~ 현재)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">    
+
 - [LG 27UL650](https://www.lge.co.kr/lgekor/product/pc/monitor/productDetail.do?cateId=2410&prdId=EPRD.344674) (2020.09.06 ~ 현재)
     <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
 
