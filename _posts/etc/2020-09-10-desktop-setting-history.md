@@ -108,7 +108,7 @@ comments: true
     
 #### 2.2 마우스(트랙패드)
 - [로지텍 M331 무소음마우스](https://search.shopping.naver.com/detail/detail.nhn?nvMid=10502482718&query=%EB%A1%9C%EC%A7%80%ED%85%8D%20m331&NaPm=ct%3Dkewqjjhs%7Cci%3Dffb39cae328eaa878962282bef05bfdf8fd347df%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D6ae7e4597b8b765f29a77164221444d48e2c6176) (2020.07.14 ~ 현재)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    <img src="https://gdimg.gmarket.co.kr/1752079787/still/600?ver=1582088832" border="0">
     - 애플 매직마우스를 쓸까 생각도 했다. 그래서 아랫집 사는 전직장 동료에게 빌려서 며칠 써봤지만 생각보다 별로더라.
     - 
 - [매직 트랙패드2](https://www.apple.com/kr/shop/product/MJ2R2KH/A/magic-trackpad-2-%EC%8B%A4%EB%B2%84) (2020.06.04 ~ 현재)
@@ -134,7 +134,9 @@ comments: true
     헤비급 선수와 라이트급 선수가 만난 느낌...? 게임이 안됐다...
     
 - [알파스캔 U2790](https://www.alphascan.co.kr/page.php?LinkPage=product_view&Code=20200605173748) (2020.08.13 ~ 현재)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">    
+    <img src="https://openimage.interpark.com/goods_image_big/2/6/1/9/7246102619b_l.jpg" border="0">    
+    
+    <img src="https://gdimg1.gmarket.co.kr/goods_image2/exlarge_moreimg/182/286/1822862299/1822862299_02.jpg?ver=1591338640" border="0">    
 
     4K 모니터로 마음을 굳힌 이후에 LG랑 알파스캔 고민했는데 알파스캔에 대한 좋은 평을 워낙 많이 들어서 한 번 써보자싶어 주문하고 바로 퀵으로 받았다.
     받자마자 진짜 소리를 질렀다. 악!!! 진짜 델보다 훨씬 좋잖아!!!! ~~(물론 델 모니터보다 2배 비쌌다. 그리고 Dell의 비슷한 가격대 모니터를 사면 똑같이 좋다고 하더라)~~
@@ -159,27 +161,67 @@ comments: true
     알파스캔에 대한 호감도 확 상승! 다음에도 기회가 있으면 알파스캔을 사겠다!
     
 - [LG 27UL650](https://www.lge.co.kr/lgekor/product/pc/monitor/productDetail.do?cateId=2410&prdId=EPRD.344674) (2020.09.06 ~ 현재)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    <img src="https://www.techinn.com/f/13736/137365820/lg-27ul650-w-27-4k-uhd-led.jpg" border="0">
+    
+    <img src="https://gccgamers.com/pub/media/catalog/product/cache/c9e3f318febfabd638414de350bde737/2/7/27ul650-w_1_2nd.jpg">
 
 #### 2.4 맥북
 - [MacbookPro 13인치](https://www.apple.com/kr/shop/buy-mac/macbook-pro/13%ED%98%95-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EA%B7%B8%EB%A0%88%EC%9D%B4-2.0ghz-%EC%BF%BC%EB%93%9C-%EC%BD%94%EC%96%B4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C(%EC%B5%9C%EB%8C%80-3.8ghz-turbo-boost)-512gb?afid=p238%257CsrvqLW4Dz-dc_mtid_18707vxu38484_pcrid_456213065402_pgrid_16348500921_&cid=aos-kr-kwgo-mac--slid---product--#) (2020.07.31 ~ 현재)
-    <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-202005?wid=1808&hei=1680&fmt=jpeg&qlt=80&.v=1587460552755" border="0">
 
 #### 2.5 악세사리
 - 맥북거치대
     - [애니클리어 AP-2](https://search.shopping.naver.com/detail/detail.nhn?nvMid=10554552559&query=%EC%95%A0%EB%8B%88%ED%81%B4%EB%A6%AC%EC%96%B4%20ap-2&NaPm=ct%3Dkewqodvk%7Cci%3D32ac150b4fa59b30b8c98c51706dabf2bfa9c52f%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D1d757cbace53c02318999ece861306797b78343c) (2020.08.10 ~ 2020.08.23)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+        <img src="https://i.011st.com/ex_t/R/400x400/1/85/0/src/pd/17/9/7/0/6/6/2/UYSpq/1356970662_B.jpg" border="0">
     - [크리에이트 T3](https://smartstore.naver.com/kreate/products/4903410659?NaPm=ct%3Dkewqpeww%7Cci%3Db4721629ac54db2007ef7a650c5c40ce7b659b90%7Ctr%3Dslsl%7Csn%3D1241461%7Chk%3D39f24dfaf0f546dd927fafc7bd08e66801969e7e) (2020.08.18 ~ 현재)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+        <img src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2020/07/13/15/0/3eab903a-31c0-45d9-bf1e-9df4eba5037f.jpg" border="0">
     - [애니클리어 AP-6](https://search.shopping.naver.com/detail/detail.nhn?nvMid=13137266790&query=%EB%A7%A5%EB%B6%81%20%EA%B1%B0%EC%B9%98%EB%8C%80&NaPm=ct%3Dkewqqdmw%7Cci%3D17f0b12a361331c7947608d715d727c6170a7e16%7Ctr%3Dslsl%7Csn%3D95694%7Chk%3D1e7a905821b7642f1a1c55561b85ff31fb43a1e7) (2020.09.10 ~ 현재)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+        <img src="https://view01.wemep.co.kr/wmp-product/0/508/407515080/pm_lu9nnyfhgszz.jpg">
+        <img src="https://i1.wp.com/thumbnail9.coupangcdn.com/thumbnails/local/320/image2/PRODUCTREVIEW/202006/16/7286895233427546453/3da65ed7-9589-4390-a646-9b349eb9ae2b.jpg?w=740&ssl=1" border="0">
 - 허브 / 독
     - [베이스어스 C타입 허브](http://www.baseuskorea.co.kr/product/%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%96%B4%EC%8A%A4-%EB%B0%B4%EB%93%9C%EC%95%B5%EA%B8%80-no7-c%ED%83%80%EC%9E%85-%EB%A9%80%ED%8B%B0-%ED%97%88%EB%B8%8C%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C34%EC%84%B8%EB%8C%80%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C/529/category/79/display/1/) (2020.08.09 ~ 현재)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
-    - [벨킨 썬더볼트3 독 프로](https://smartstore.naver.com/mdigg01/products/4811591730?NaPm=ct%3Dkewqrxyo%7Cci%3D0yK0000c4jDtofdYr1oM%7Ctr%3Dpla%7Chk%3D343a1699c1fa1160c87625929ef065c3503ccb16) (2020.09.08 ~ 현재)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+        <img src="https://img.sunsky-online.com/upload/store/product_l/SAS6720DG.jpg" border="0">
+    - [벨킨 썬더볼트3 독 프로](https://smartstore.naver.com/mdigg01/products/4811591730?NaPm=ct%3Dkewqrxyo%7Cci%3D0yK0000c4jDtofdYr1oM%7Ctr%3Dpla%7Chk%3D343a1699c1fa1160c87625929ef065c3503ccb16) (2020.09.08 ~ 2020.09.15)
+        <img src="https://www.belkin.com/images/product_webdam/95645332/renditions/webdam.web.1000.1000.jpeg" border="0">
+        - 구매를 결정하게된 이유
+        1. 맥북과 벨킨은 서로 호환성이 좋다.
+        2. 더 예쁜 디자인 (TS3 보다 깔끔하게 디자인이 나왔다)
+        3. TS3보다 더 최신 칩셋이 들어가있다.
+        4. USB-C타입 하위호환이 가능하다고 함    
+        
+        - 단점
+        1. 더럽게 비싼 가격
+
+        - 처음 샀을 때는 조금 더 비싼 가격이라도 애플은 벨킨 제품이 가장 좋다는 믿음과
+        더 최신 제품 또한 하위 호환까지 가능한 것을 생각해서 구매했다.
+        처음에는 아무 문제가 없어보였다. 모니터 2개, 마우스 블루투스동글, 미니선풍기까지 모두 다 끼울 수 있었고
+        그 것을 썬더볼트 선 하나로 연결하면 너무 깔끔했다. 그러나 사용할수록 뭔가 아쉬움이 발생했다.
+        
+        문제점1 : HDMI to C타입 케이블을 꽂으면 해당 모니터를 읽지못한다.      
+            -> 해결책 : 벨킨 C to HDMI 어댑터 구매 후 연결하니 해결완료 !        
+        문제점2 : 맥북이 잠자기, 리부팅했을 때 듀얼 모니터중 썬더볼트 포트에 연결된 모니터에 신호를 주지못한다.      
+            -> HDMI 케이블을 뽑았다가 다시 끼우거나, 컴퓨터를 완전히 껐다가 켜야 다시 정상적으로 돌아왔다.      
+        여러 가능성을 열어놓고 테스트를 시작함.        
+            1. 모니터 문제: 모니터를 서로 바꿔서 연결해봄 -> 썬더볼트 포트에 연결된 모니터만 문제. 모니터 문제 없음    
+            2. 케이블 문제: 다른 HDMI 케이블로 연결해봄 -> 여전히 동일한 증상. 케이블 문제 없음.    
+            3. 독의 문제 -> 독을 거치지 않고 바로 맥북에 직결 했을 때는 전혀 문제가 없었음. 독의 문제    
+            그래서 벨킨사의 고객센터에 전화를 했다. 처음에는 전화를 한참동안 안받더니 결국 연결되어서 물어봤다.
+            벨킨 고객센터의 대답 "썬더볼트 호환이 되는 모니터를 사용해야만 정상적으로 출력가능합니다"
+            하아...그럼 모니터를 바꿔야하나? 썬더볼트 호환용 모니터는 얼마지? 대부분 100만원...200만원짜리 모니터들뿐.
+            그래서 모니터대신 독을 바꾸기로 결정함.        
+    - [칼디짓(칼디지트) TS3 PLUS](https://smartstore.naver.com/caldigitkr/products/4857317757?NaPm=ct%3Dkf3wviui%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Df654b15e446b16963ad211db91725d31b6e04a78) (2020.09.15 ~ 현재)
+        <img src="https://www.studiodaily.com/wp-content/uploads/2018/03/caldigit_lead.jpg" border="0">
+        - 칼디지트 코리아측에 문의한 결과, TS3 PLUS는 썬더볼트 호환이 되지않는 모니터에 연결해도 사용가능하다고 함.
+        - 연결해서 이런저런 테스트 해본 결과 안정적으로 모니터 출력되는 것을 확인함.
+        매우 만족스럽게 이용중. 괜히 서울리안님이 TS3를 추천한게 아니네...[(서울리안님의 TS3 추천영상)](https://www.youtube.com/watch?v=49y3TuMwAOg)
+        
+    - [벨킨 USB-C to HDMI + C타입 어댑터](https://smartstore.naver.com/mdigg01/products/4987527992?NaPm=ct%3Dkf3xk714%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3D218b3c1091eab98c82999707ee158258ee0daa11)
+        <<img src="https://gdimg.gmarket.co.kr/1833685089/still/600?ver=1593051343" border="0">
+        - 사진이 마땅한게 없어서 이걸로 함. 
 - 모니터암
     - [카멜마운트 CMA-2P](https://search.shopping.naver.com/detail/detail.nhn?cat_id=50006203&nv_mid=22023989449&query=%EC%B9%B4%EB%A9%9C%EB%A7%88%EC%9A%B4%ED%8A%B8&bt=0&frm=NVSCPRO&NaPm=ct%3Dkewqsiso%7Cci%3D17e5f6dd725f5530b87b88cd3e3c76b222701ff1%7Ctr%3Dsls%7Csn%3D95694%7Chk%3Dd35f257abd20cbf86e70b18616862184064ddc91) (2020.08.11 ~ 현재)
-        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22LL?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496944005839" border="0">
+        <img src="https://image.auction.co.kr/itemimage/1b/73/37/1b73370436.jpg">
+        
+        <img src="https://ai.esmplus.com/camel2/mktg_sonyeonhee/CMA2P%20%EC%9E%AC%EC%9E%85%EA%B3%A0_200403/%EC%88%98%EC%A0%95.png" border="0">
  
     
