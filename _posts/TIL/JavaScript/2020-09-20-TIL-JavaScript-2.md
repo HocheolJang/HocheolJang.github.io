@@ -38,9 +38,9 @@ comments: true
 - java script의 `<script>` 밑에 "use strict"; 라고 써준다
 
     ```javascript
-        let num;
-        num = 10;  // let num = 10; 변수의 선언과 초기화를 동시에 진행가능
-        console.log(num);
+    let num;
+    num = 10;  // let num = 10; 변수의 선언과 초기화를 동시에 진행가능
+    console.log(num);
     ```
 
 ### 2.상수
@@ -57,33 +57,33 @@ comments: true
     - 숫자형(number)
         - 다른 언어는 정수, 실수형 따로 있는데, JS는 무조건 숫자형 (모든 수를 실수 하나로만 표현함)
             ```javascript
-                let num1 = 10, num2 = 11.11, num3 = 10e6; // 10e6은 10의 6승을 의미함
-                console.log(num1);
-                console.log(num2);
-                console.log(num3);
+            let num1 = 10, num2 = 11.11, num3 = 10e6; // 10e6은 10의 6승을 의미함
+            console.log(num1);
+            console.log(num2);
+            console.log(num3);
             ```
     - 문자열형(string)
         - JS에서는 쌍따옴표("문자")나 따옴표 ('문자')에 둘러싸인 문자의 집합을 의미함
         - 문장안에 "" 혹은 ''로 넣고싶은경우 다른걸로 감싸주면된다
             ```javascript
-                let str1 = "장호철 : '여러분 반가워요'";
-                let str2 = '장호철 : "여러분 반가워요"';
-                let str3 = "\"안녕하세요. \n자바스크립트\"";
-                let str4 = `자바스크립트에서는 문자열을 쌍따옴표나 따옴표로 둘러싸인 문자의 집합을 의미합니다.`
+            let str1 = "장호철 : '여러분 반가워요'";
+            let str2 = '장호철 : "여러분 반가워요"';
+            let str3 = "\"안녕하세요. \n자바스크립트\"";
+            let str4 = `자바스크립트에서는 문자열을 쌍따옴표나 따옴표로 둘러싸인 문자의 집합을 의미합니다.`
             ```
           
             ```javascript
-                let num1 = 10; // 숫자형
-                let str1 = "Hello JavaScript" // 문자열형
-                let num2 = 5;
-                let str2 = "Hello World"
-                console.log(num1 + num2);
-                console.log(num1 + str1);
-                console.log(str1 + str2);
-                
-                console.log("장호철 : '여러분, 반가워요'");
-                console.log('장호철 : "여러분, 반가워요"');
-                console.log("안녕하세요. \n자바스크립트"); // \백슬러쉬를 쓰면 다음줄로 넘어감
+            let num1 = 10; // 숫자형
+            let str1 = "Hello JavaScript" // 문자열형
+            let num2 = 5;
+            let str2 = "Hello World"
+            console.log(num1 + num2);
+            console.log(num1 + str1);
+            console.log(str1 + str2);
+            
+            console.log("장호철 : '여러분, 반가워요'");
+            console.log('장호철 : "여러분, 반가워요"');
+            console.log("안녕하세요. \n자바스크립트"); // \백슬러쉬를 쓰면 다음줄로 넘어감
             ```
           
         - 다른 언어는 문자와 문자열을 다르게 판단하지만, JS는 스스로 판단한다
@@ -91,45 +91,45 @@ comments: true
     - 불리언형(boolean)
         - 불리언 값은 true(참), false(거짓)으로 표현합니다
             ```javascript
-                let b1 = true; // 1으로 봐도 됨
-                let b2 = false; // 0으로 봐도 됨
-                let b3 = (10 > 5); // 자연스럽게 b3에는 true가 들어감
-                let b4 = (10 < 3);
-                console.log('b1의 결과 :' + b1)
-                console.log('b2의 결과 :' + b2)
-                console.log('b3의 결과 :' + b3)
-                console.log('b4의 결과 :' + b4)
+            let b1 = true; // 1으로 봐도 됨
+            let b2 = false; // 0으로 봐도 됨
+            let b3 = (10 > 5); // 자연스럽게 b3에는 true가 들어감
+            let b4 = (10 < 3);
+            console.log('b1의 결과 :' + b1)
+            console.log('b2의 결과 :' + b2)
+            console.log('b3의 결과 :' + b3)
+            console.log('b4의 결과 :' + b4)
             ```
     - undefined, null 형
         - null이란 object 타입이며, 아직 값이 정해지지않은 것을 의미함
         - undefined는 null과는 달리, 아직 타입이 정해지지 않은 것을 의미함
         - undefined는 초기화 되지않은 변수나 존재하지 않는 값을 접근할 때 반환됨
             ```javascript
-                let num1;
-                console.log(num1)
-                
-                let obj1 = {}; // {}를 넣으면 객체를 만들겠다는 이야기이다
-                let obj2 = null;
-                console.log(obj1);
-                console.log(obj2);
+            let num1;
+            console.log(num1)
+            
+            let obj1 = {}; // {}를 넣으면 객체를 만들겠다는 이야기이다
+            let obj2 = null;
+            console.log(obj1);
+            console.log(obj2);
             ```
     - 심볼형(Symbol)
         - ECMAScript6에서 추가된 데이터 타입
         - 유일하고 변경 불가능한 기본값을 만든다
         - 객체 속성의 key값으로도 사용가능
             ```javascript
-                const sym1 = Symbol('a');
-                const sym2 = Symbol('a');
-                console.log(sym1 === sym2); // 같는지 확인할 때
-                // == 값이 같은지 묻는 것 (value가 같은지 검사)
-                // "10" == 10 은 true이고 , "10" === 10 은 false가 나온다
-                // == 은 value만 비교하는 것이고, === 값과 타입을 동시에 비교한다
-                // 심볼은 독자적인 key값을 가지는 것이다
-                
-                const sym3 = Symbol();
-                const sym4 = sym3;
-                // 이렇게 쓰면, 같아질 수 있다
-                console.log(sym3 === sym4); //이건 true가 나온다
+            const sym1 = Symbol('a');
+            const sym2 = Symbol('a');
+            console.log(sym1 === sym2); // 같는지 확인할 때
+            // == 값이 같은지 묻는 것 (value가 같은지 검사)
+            // "10" == 10 은 true이고 , "10" === 10 은 false가 나온다
+            // == 은 value만 비교하는 것이고, === 값과 타입을 동시에 비교한다
+            // 심볼은 독자적인 key값을 가지는 것이다
+            
+            const sym3 = Symbol();
+            const sym4 = sym3;
+            // 이렇게 쓰면, 같아질 수 있다
+            console.log(sym3 === sym4); //이건 true가 나온다
             ```
           
     - 객체형(object)
@@ -138,9 +138,9 @@ comments: true
         - 값이 명사의 형태를 띄면 프로퍼티로 보면 된다
         - 값이 동사의 형태로 되면 메소드로 보면 된다
             ```javascript
-                let dog = {name: "루시", age: 10, weight: 2.0 };
-                console.log("이름 : " + dog.name);
-                console.log("나이 : " + dog.age);
-                console.log("몸무게 : " + dog.weight);
+            let dog = {name: "루시", age: 10, weight: 2.0 };
+            console.log("이름 : " + dog.name);
+            console.log("나이 : " + dog.age);
+            console.log("몸무게 : " + dog.weight);
             ```
         
