@@ -11,15 +11,11 @@ tags:
 comments: true
 toc: true
 toc_sticky: true
-# other options
+
 ---
 
 
-<h3>목차</h3>
 
-- [1.타입변환](#1타입변환)
-- [2.대화상자](#2대화상자)
-- [3.연산자](#3연산자)
   
 
 ### 1.타입변환
