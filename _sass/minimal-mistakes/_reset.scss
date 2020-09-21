@@ -15,7 +15,8 @@ html {
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    // large 페이지일 때
+    //font-size: 20px;
   }
 
   @include breakpoint($x-large) {
