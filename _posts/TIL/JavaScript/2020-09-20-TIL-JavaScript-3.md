@@ -92,6 +92,7 @@ classes: wide
 ### 3.연산자(Operator)
 
 - 산술연산자 : 사칙연산을 다루는 기본적인 연산자
+
     ```
     + : 덧셈   
     - : 뺄셈    
@@ -193,10 +194,11 @@ classes: wide
     ```javascript
     // example  
     let num1 = 10;
-    console.log(`num1의 값 : ${num1}`);
-    console.log(`++num1의 값 : ${++num1}`);
-    console.log(`num1의 값 : ${num1}`);
-    console.log(`num1++의 값 : ${num1++}`);
+    console.log(`num1의 값 : ${num1}`); // 10
+    console.log(`++num1의 값 : ${++num1}`); // 11
+    console.log(`num1의 값 : ${num1}`); // 11
+    console.log(`num1++의 값 : ${num1++}`); // 'num1++의 값 : ' + num1++ // 11
+    console.log(`num1의 값 : ${num1}`); // 12
     ```        
       
 - 논리연산자
