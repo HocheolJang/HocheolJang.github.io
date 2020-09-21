@@ -11,6 +11,7 @@ tags:
 comments: true
 toc: true
 toc_sticky: true
+classes: wide
 # other options
 ---
 
