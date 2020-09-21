@@ -7,6 +7,8 @@ categories:
 tags:
   - desktop
 comments: true
+toc : true
+toc_sticky: true
 ---
 
 마지막 업데이트일 : 2020년 9월 19일(토)

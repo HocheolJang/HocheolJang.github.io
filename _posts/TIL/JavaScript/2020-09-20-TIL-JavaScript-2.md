@@ -10,6 +10,7 @@ tags:
   - JavaScript
 comments: true
 toc: true
+toc_sticky: true
 # other options
 ---
 
