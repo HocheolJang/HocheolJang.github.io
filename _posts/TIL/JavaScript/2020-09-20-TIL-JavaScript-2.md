@@ -9,6 +9,7 @@ tags:
   - TIL
   - JavaScript
 comments: true
+toc: true
 # other options
 ---
 
