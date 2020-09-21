@@ -6,9 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  //주석처리
-  //padding-left: 1em;
-  //padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -557,9 +556,4 @@ body {
       padding-right: 0;
     }
   }
-}
-
-<!-- 파일 제일 하단에 추가 카테고리 리스트의 개수가 많아 scollbar가 생기는 것을 방지하는 코드-->
-.scrollbar__hide::-webkit-scrollbar {
-  display:none;
 }
