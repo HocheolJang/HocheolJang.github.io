@@ -1,18 +1,4 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-<<<<<<< HEAD
-<div class="sidebar sticky scrollbar__hide" style="-ms-overflow-style: none;">
-    {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-    {% if page.sidebar %}
-      {% for s in page.sidebar %}
-        {% if s.image %}
-        <img src=
-        {% if= s.image contains "://"%}
-            "{{= s.image }}"
-        {% else %}
-            "{{ s.image | relative_url }}"
-        {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-=======
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
@@ -20,48 +6,14 @@
       {% if s.image %}
         <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
->>>>>>> parent of 8edf42f... Blog sidebar 추가
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
-<<<<<<< HEAD
-        {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
-
-
-<!--    &lt;!&ndash; 카테고리 갯수를 세고 이를 출력하는 코드 &ndash;&gt;-->
-<!--    {% assign categories_max = 0 %}-->
-<!--    {% for category in site.categories %}-->
-<!--        {% if category[1].size > categories_max %}-->
-<!--            {% assign categories_max = category[1].size %}-->
-<!--        {% endif %}-->
-<!--    {% endfor %}-->
-
-<!--    <hr>-->
-<!--    <h3><a href="/categories/"><span style="font-weight: bold";>Categories</span></a></h3>-->
-<!--    <ul class="taxonomy__index__sidebar">-->
-<!--        {% for i in (1..categories_max) reversed %} -->
-<!--          {% for category in site.categories %}-->
-<!--            {% if category[1].size == i %}-->
-<!--        <li>-->
-
-<!--            {{ category[0] }} {{ i }}-->
-
-<!--        </li>-->
-<!--        {% endif %}-->
-<!--        {% endfor %}-->
-<!--        {% endfor %}-->
-<!--    </ul>-->
-<!--</div>-->
-<!--{% endif %}-->
-=======
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
   </div>
 {% endif %}
->>>>>>> parent of 8edf42f... Blog sidebar 추가
