@@ -44,6 +44,7 @@ toc_sticky: true
     ```
 
     ```javascript
+    // example
     let a = 10 + "문자열";
     console.log(a)
     let b = "3" * "5" ;
@@ -65,6 +66,7 @@ toc_sticky: true
         - ParseFloat() : 문자를 float형으로 변환 // 실수형
 
     ```javascript
+    // example
     let num1 = "10";
     let num2 = "5";
     console.log("현재 num1의 타입 : " + (typeof num1)); // string
@@ -79,6 +81,7 @@ toc_sticky: true
 - prompt() : 사용자에게 메세지를 보여주고 사용자가 입력한 !! 문자열 !! 을 반환함
 
     ```javascript
+    // example
     window.alert("안녕하세요 JavaScript") // window는 생략가능
     let result = window.confirm('확인 또는 취소를 눌러주세요') // 앞에 변수값을 선언해줘야 값을 반환해서 넣어줌
     console.log(result); // 확인을 누르면 True, 취소를 누르면 False 값이 나옴
@@ -94,95 +97,217 @@ toc_sticky: true
     ```
 
 
-### 3.데이터타입
-- 타입이란 프로그램에서 다룰 수 있는 값의 종류를 의미함
-    - 숫자형(number)
-        - 다른 언어는 정수, 실수형 따로 있는데, JS는 무조건 숫자형 (모든 수를 실수 하나로만 표현함)
-            ```javascript
-            let num1 = 10, num2 = 11.11, num3 = 10e6; // 10e6은 10의 6승을 의미함
-            console.log(num1);
-            console.log(num2);
-            console.log(num3);
-            ```
-    - 문자열형(string)
-        - JS에서는 쌍따옴표("문자")나 따옴표 ('문자')에 둘러싸인 문자의 집합을 의미함
-        - 문장안에 "" 혹은 ''로 넣고싶은경우 다른걸로 감싸주면된다
-            ```javascript
-            let str1 = "장호철 : '여러분 반가워요'";
-            let str2 = '장호철 : "여러분 반가워요"';
-            let str3 = "\"안녕하세요. \n자바스크립트\"";
-            let str4 = `자바스크립트에서는 문자열을 쌍따옴표나 따옴표로 둘러싸인 문자의 집합을 의미합니다.`
-            ```
-          
-            ```javascript
-            let num1 = 10; // 숫자형
-            let str1 = "Hello JavaScript" // 문자열형
-            let num2 = 5;
-            let str2 = "Hello World"
-            console.log(num1 + num2);
-            console.log(num1 + str1);
-            console.log(str1 + str2);
-            
-            console.log("장호철 : '여러분, 반가워요'");
-            console.log('장호철 : "여러분, 반가워요"');
-            console.log("안녕하세요. \n자바스크립트"); // \백슬러쉬를 쓰면 다음줄로 넘어감
-            ```
-          
-        - 다른 언어는 문자와 문자열을 다르게 판단하지만, JS는 스스로 판단한다
-        - '+'의 의미 : 1. 산술 연산자 (덧셈) 2. 연결 연산자 (문자열 결합)
-    - 불리언형(boolean)
-        - 불리언 값은 true(참), false(거짓)으로 표현합니다
-            ```javascript
-            let b1 = true; // 1으로 봐도 됨
-            let b2 = false; // 0으로 봐도 됨
-            let b3 = (10 > 5); // 자연스럽게 b3에는 true가 들어감
-            let b4 = (10 < 3);
-            console.log('b1의 결과 :' + b1)
-            console.log('b2의 결과 :' + b2)
-            console.log('b3의 결과 :' + b3)
-            console.log('b4의 결과 :' + b4)
-            ```
-    - undefined, null 형
-        - null이란 object 타입이며, 아직 값이 정해지지않은 것을 의미함
-        - undefined는 null과는 달리, 아직 타입이 정해지지 않은 것을 의미함
-        - undefined는 초기화 되지않은 변수나 존재하지 않는 값을 접근할 때 반환됨
-            ```javascript
-            let num1;
-            console.log(num1)
-            
-            let obj1 = {}; // {}를 넣으면 객체를 만들겠다는 이야기이다
-            let obj2 = null;
-            console.log(obj1);
-            console.log(obj2);
-            ```
-    - 심볼형(Symbol)
-        - ECMAScript6에서 추가된 데이터 타입
-        - 유일하고 변경 불가능한 기본값을 만든다
-        - 객체 속성의 key값으로도 사용가능
-            ```javascript
-            const sym1 = Symbol('a');
-            const sym2 = Symbol('a');
-            console.log(sym1 === sym2); // 같는지 확인할 때
-            // == 값이 같은지 묻는 것 (value가 같은지 검사)
-            // "10" == 10 은 true이고 , "10" === 10 은 false가 나온다
-            // == 은 value만 비교하는 것이고, === 값과 타입을 동시에 비교한다
-            // 심볼은 독자적인 key값을 가지는 것이다
-            
-            const sym3 = Symbol();
-            const sym4 = sym3;
-            // 이렇게 쓰면, 같아질 수 있다
-            console.log(sym3 === sym4); //이건 true가 나온다
-            ```
-          
-    - 객체형(object)
-        - 우리가 인식할 수 있는 사물을 저장하는 형태
-        - 객체는 여러 프로퍼티나 메소드를 같은 이름으로 묶어놓은 집합체
-        - 값이 명사의 형태를 띄면 프로퍼티로 보면 된다
-        - 값이 동사의 형태로 되면 메소드로 보면 된다
-            ```javascript
-            let dog = {name: "루시", age: 10, weight: 2.0 };
-            console.log("이름 : " + dog.name);
-            console.log("나이 : " + dog.age);
-            console.log("몸무게 : " + dog.weight);
-            ```
-        
+### 3.연산자(Operator)
+
+- 산술연산자 : 사칙연산을 다루는 기본적인 연산자
+    ```
+    + : 덧셈
+    - : 뺄셈
+    * : 곱셈
+    / : 나눗셈
+    % : 나눈 나머지값
+    ** : 거듭제곱
+    ```
+    ```javascript
+    // example
+    let num1 = Number(prompt('첫번째 숫자를 입력하세요'));
+    let num2 = Number(prompt('두번째 숫자를 입력하세요'));
+    let result = num1 + num2;
+    console.log((`num1 + num2 = ${result}`));
+    // console.log(('num1 + num2 =' + result)); // 위아래는 같은 형태로 출력되지만 위가 덜 귀찮은 형태
+    result = num1 - num2;
+    console.log((`num1 - num2 = ${result}`));
+    result = num1 * num2;
+    console.log((`num1 * num2 = ${result}`));
+    result = num1 / num2;
+    console.log((`num1 / num2 = ${result}`));
+    result = num1 % num2;
+    console.log((`num1 % num2 = ${result}`));
+    result = num1 ** num2;
+    console.log((`num1 ** num2 = ${result}`));
+    ```
+
+- 비교연산자 : 피연산자의 상대적인 크기를 판단하여 참/거짓으로 반환    
+
+    ```
+    > : 왼쪽의 값이 오른쪽의 값보다 크면 참을 반환합니다.
+    < : 오른쪽의 값이 왼쪽의 값보다 크면 참을 반환합니다.
+    >= : 왼쪽의 값이 오른쪽의 값보다 크거나 같으면 참을 반환합니다.
+    <= : 오른쪽의 값이 왼쪽의 값보다 크거나 같으면 참을 반환합니다.
+    == : 값이 같으면 참을 반환함
+    === : 값이 같고, 타입까지 같으면 참을 반환함
+    != : 타입에 관계업이 값이 다르면 참을 반환함
+    !== : 두 식의 값이 같지않고 타입까지 같지않으면 참을 반환함)
+    ```
+    ```javascript
+    // example
+    let num1 = 3, num2 = 5;
+    let str1 = "3", str2 = "abcde", str3 = "bcd";
+    let result = (num1 > num2);
+    console.log(`num1 > num2 : ${result}`);
+    result = (str2 <= str3);
+    console.log(`str2 <= str3 : ${result}`); // true가 나옴. 사전순으로 이해하면됨. a가 b보다 뒤에 나옴. 더 크다
+    result = (num1 == str1);
+    console.log(`num1 == str1 : ${result}`); // 타입이 다르지만 값이 같기때문에 true로 반환됨
+    result = (num1 === str1);
+    console.log(`num1 === str1 : ${result}`); // 타입이 다르지만 값이 같기때문에 true로 반환됨
+    ```  
+  
+- 대입연산자
+    - 변수에 값을 대입할 떄 사용하는 연산자
+
+    ```
+    = (왼쪽변수에 오른쪽 값을 대입할 때)
+    += (왼쪽변수에 오른쪽 값을 더한 후, 그 결과를 왼쪽변수에 대입)
+    ex)
+    let a = 10;
+    a += 1; // a = a+1;과 같은 뜻이다 // 무조건 오른쪽부터 더해라는 이야기
+    -= (왼쪽변수에 오른쪽 값을 뺀 후에, 그 결과를 왼쪽 변수에 대입)
+    *= (왼쪽변수에 오른쪽 값을 곱한 후에, 그 결과를 왼쪽 변수에 대입)
+    /= (왼쪽변수에 오른쪽 값을 나눈 후에, 그 결과를 왼쪽 변수에 대입)
+    %= (왼쪽변수에 오른쪽 값의 나머지값을 구한 후에, 그 결과를 왼쪽 변수에 대입)
+    **= (왼쪽변수에 오른쪽 값의 거듭제곱 후, 그 결과를 왼쪽 변수에 대입)
+    ```
+
+    ```javascript
+    // example
+    let num1 = 10, num2 = 10, num3 = 10;
+    num1 += 5;
+    console.log(`num1 += 5 : ${num1}`);
+    console.log(`num2 -= 5 : ${num2}`);
+    ```        
+    
+    
+- 증감연산자
+    - 증감연산자는 값을 1씩 증가하거나, 감소시킬 때 사용하는 연산자. 연산자가 어느쪽에 위치하느냐에 따라 순서 및 결과가 달라짐
+    
+    ```
+    ++변수 : 변수의 값을 1 증가시킨 후 다음 연산을 진행
+    변수++ : 먼저 다른 연산을 수행하고나서, 변수의 값을 1증가시킵니다
+    --변수 : 변수의 값을 1 감소시킨 후 다음 연산을 진행
+    변수-- : 먼저 다른 연산을 수행하고나서, 변수의 값을 1감소시킵니다
+    
+
+    let a = 5;
+    ++a; // a = a+1; a++;
+    
+    let b = 5;
+    let b = ++a; // b = 6;
+
+    let a = 5;
+    let b = a++; // b = 5;
+    ```
+
+    ```javascript
+    // example  
+    let num1 = 10;
+    console.log(`num1의 값 : ${num1}`);
+    console.log(`++num1의 값 : ${++num1}`);
+    console.log(`num1의 값 : ${num1}`);
+    console.log(`num1++의 값 : ${num1++}`);
+    ```        
+      
+- 논리연산자
+    - 주어진 논리식을 판단하여 참과 거짓을 반환함
+    
+    ```
+    A && B -- AND 연산 : 두 논리식이 모두 참이면, 참으로 반환
+        ex) ID / PW 둘 다 True이면, 로그인 성공 ! True / True 일때만 True, 나머지는 전부 False 
+    A || B -- OR 연산 : 두 논리식중 한 가지라도 참이면, 참으로 반환
+        ex) false false 일 때만 false 로 나옴 , 나머지는 모두 True
+    !A -- NOT 연산 : 논리식의 결과가 참이면 거짓으로, 거짓이면 참으로 변환하는 연산자
+        ex) let b1 = true;
+            console.log(!b1); 결과값은 False가 나옴
+  
+    A	&&	 B		결과
+    true		true		true
+    true		false		false
+    false		true		false
+    false		false		false
+  
+    A	||	 B		결과
+    true		true		true
+    true		false		true
+    false		true		true
+    false		false		false
+  
+    ```
+
+    ```javascript
+    // example  
+    let num1 = 10, num2 = 5;
+    let result1 = (num1 == num2); // False
+    let result2 = (num1 >= num2); // True
+    console.log(`result1 && result2 : ${result1 && result2}`);
+    console.log(`result1 || result2 : ${result1 || result2}`);
+    console.log(`!result1 : ${!result1}`);
+    ```        
+    
+- 비트연산자
+    - 잘 안쓰지만 상식적으로 알면 좋다~
+    - 논리연산자와 비슷하지만 비트단위로 논리연산을 수행함
+    ```
+    & : 대응되는 비트가 모두 참이면 참을 반환하는 연산자
+        25 & 18 = ?
+        11001 (25-10진법)
+        10010 (18-10진법)
+        10000
+        따라서 25 & 16 = 16(10진법)
+
+    | : 대응되는 비트중 하나라도 참을 반환하는 연산자
+    ^ : 대응하는 비트가 서로 다르면 참을 반환하는 연산자
+    << : 지정한 수만큼 비트를 왼쪽으로 이동시킴
+    >> : 지정한 수만큼 비트를 오른쪽으로 이동시킴
+  
+    - bit은 컴퓨터 용량의 최소단위, 0 또는 1을 저장하는 단위
+    - 1byte = 8bit
+    - KB(킬로바이트) : 1KB = 1024byte
+    - MB(메가바이트) : 1MB = 1024KB
+    - GB(기가바이트) : 1GB = 1024MB
+    - TB(테라바이트) : 1TB = 1024GB
+    - PB(페타바이트) : 1PB = 1024TB
+    - 헥사 / 제타 / 로타
+
+    - 이진법 연산까진 아는게 좋다
+        32  16  8   4   2   1
+        1   1   0   0   1   0 (50)
+            1   1   0   0   1 (25)
+            1   0   0   1   0 (18)
+                    1   0   1 (5)   
+    - 25(10진법) = 11001(2진법)
+    - 18(10진법) = 10010(2진법)           
+    ```
+  
+    ```javascript
+    // example  
+    let num1 = 25, num2 = 18;
+    console.log(`num1 & num2 : ${num1 & num2}`)
+    console.log(`num1 | num2 : ${num1 | num2}`)
+    // 둘 중 하나라도 참이면 참
+    //  25 = 11001
+    //  18 = 10010
+    //  ?? = 11011 = 27
+    console.log(`num1 ^ num2 : ${num1 ^ num2}`)
+    // 값이 서로 다르면 참(1)
+    //  25 = 11001
+    //  18 = 10010
+    //  ?? = 01011 = 11 
+    console.log(`num1 << num2 : ${num1 << 2}`)
+    //  25 = 11001인데, 2칸을 왼쪽으로 옮기면
+    //  1100100 (값 100)
+    console.log(`num1 >> num2 : ${num1 >> 2}`)
+    //  25 = 11001인데, 2칸을 오른쪽으로 옮기면
+    //  110이 됨 (값 6)
+    ```        
+
+- 삼항연산자 (많이 씀)
+    - 조건식에 따른 참, 거짓에 따라 반환값이 달라지는 연산자      
+    ex) 변수 = 조건식? 반환값1(True일 경우) : 반환값2(False일 경우)
+
+    ```javascript
+    // example  
+    let num1 = Number(prompt('첫번째 숫자를 입력하세요'));
+    let num2 = Number(prompt('두번째 숫자를 입력하세요'));
+    let result = (num1 > num2) ? num1 : num2;
+    console.log(`두 수중 큰 수는 ? ${result}`);
+    ```        
