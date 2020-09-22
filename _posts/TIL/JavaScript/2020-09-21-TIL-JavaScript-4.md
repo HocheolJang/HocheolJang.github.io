@@ -157,8 +157,9 @@ classes: wide
             document.write('안녕하세요. JavaScript!<br>');
             i++;
             }
-          
-          
+            ```
+        
+            ```javascript        
             let i = 1, sum = 0;
             while(i<=10){
             sum += i;
@@ -178,8 +179,9 @@ classes: wide
             i++;
             }
              console.log(`1부터 10까지의 총합 : ${sum}`);
-          
-            
+            ```        
+        
+            ```javascript        
             let i = 1;
             let sum = 0;
             while(i <= 100){
@@ -187,9 +189,9 @@ classes: wide
             i++;
             }
             console.log(`1 ~ 100까지의 짝수의 합 : ${sum}`);
-            ```
-          
-	- do ~ while문
+	        ```
+        
+    - do ~ while문
         - while문은 루트에 진입하기 전에 먼저 조건식부터 검사를 합니다.
         - 하지만 do ~ while문은 먼저 루프를 한 번 실행한 후에 조건식을 검사합니다.
             ```
@@ -207,32 +209,35 @@ classes: wide
             do {
                 console.log(`j : ${j++}`);
             }while(j > 3);
-            ```          
+            ```
         - for 문
             - for문은 while문과 달리 자체적으로 초기값, 조건식, 증감식을 모두 포함하고 있는 반복문입니다.
             - while문 보다는 간결하게 반복을 표현할 수 있습니다.
+            
             ```
             for(초기값; 조건식; 증감식){
                 조건식의 결과가 참인 동안 반복할 실행문;
             }
             ```
-
+    
             ```javascript
             // example
             'use strict';
             for(let i=1; i<=10; i++){
                 console.log('안녕하세요. JavaScript');
             }
-          
-          
+            ```
+        
+            ```javascript        
             'use strict';
             let i;
             for(i=1; i<=5; i++){
                 console.log(`${i}번째 반복`);
             }
             console.log(`현재 i의 값은 : ${i}`);
-            
+        
           
+            ```javascript        
             'use strict';
             let sum = 0;
             for(let i=1; i<=10; i++){
@@ -240,10 +245,11 @@ classes: wide
             }
             console.log(`1 ~ 10까지의 총합 : ${sum}`);
             ```
-          
+        
         - continue 문
             - 반복중인 루트 내에서 사용하여 해당 루프의 나머지 부분을 건너뛰고, 다음 조건식의 판단으로 넘어가게 합니다.
             - 보통 반복문 내에서 특정 조건에 대한 처리를 제외하고자 할 때 사용합니다.
+            
             ```javascript
             // example
             let num = 3;
@@ -272,8 +278,9 @@ classes: wide
                 break;         // 무한방문할 수 있도록 하다가 4번을 누르면 break가 걸려서 종료하게 만들 수 있다
               }
             }
-          
-          
+            ```
+        
+            ```javascript
             'use strict'; 
             // for문에 ;;라고 쓰면 무한루프가 돈다
             for(;;){
@@ -287,4 +294,104 @@ classes: wide
               }
             }
             ```
-     
+        - 중첩 for 문
+            - for문이 2개이상 겹쳐있는 프로그램을 의미함
+            
+            ```
+            for(초기값; 조건식1; 증감식) {
+            조건식 1의 결과가 참인동안 반복할 실행문
+            for(초기값, 조건식2; 증감식){
+            조건식2의 결과가 참인 동안 반복될 실행문;
+                }
+            }
+            ```
+          
+            ```javascript
+            for(let i=1; i<=3; i++){
+            for(let j=1; j<=5; j++){
+                console.log('안녕하세요 자바스크립트')
+               }
+            }
+            // Q. 몇 번 돌까요? 15번 돈다
+            ```
+          
+            ```javascript
+            
+            // 구구단
+        
+            for(let i=2; i<=9; i++){
+               document.write(`<p> ${i}단<p>`);
+               for(let j=1; j<=9; j++){
+                  document.write(`${i} * ${j} = ${i * j}<br>`)
+                  }
+            }
+            ```
+
+        - for ~ in 반복문
+            - 객체의 속성들을 반복하여 작업을 수행할 수 있습니다.
+            - for in 구문은 객체의 key 값에 접근할 수 있지만, value 값에 접근하는 방법은 제공하지 않습니다.
+            - 객체의 key값과 value 값을 뽑아내는데 유용합니다.
+            - 객체의 키값의 갯수만큼 반복하여 첫번쨰키값부터 마지막 키값까지 반복합니다.
+            
+            ```
+            for(변수선언, in 배열){
+                배열의 요소만큼 반복할 실행문;
+            }
+            for (let i in arr){
+                console.log(arr[i]);
+            }
+            ```
+
+            ```javascript
+            
+            // example
+            var obj = {name:"홍길동", class:"A반", age:20};
+            for (var i in obj){
+              document.write(i + " : " + obj[i] + "<br>");
+            }
+             /* 결과 :
+             name : 홍길동
+             class : A반
+             age : 20
+             */
+            ```
+
+        - foreach 반복문
+            - foreach 반복문은 오직 Array 객체에서만 사용가능한 메서드입니다.
+            - 배열의 요소들을 반복하여 작업을 수행할수 있습니다. 
+            - foreach구문의 인자로 callback함수를 등록할수 있고, 배열의 각 요소들이 반복될 떄 이 callback 함수가 호출됩니다.
+            - callback 함수에서 배열요소의 인덱스와 값에 접근할수 있습니다.
+
+            ```
+            배열이름.foreach(function(변수){
+                배열의 요소만큼 반복할 실행문;
+            })
+            ```
+          
+            ```javascript
+            // example
+            test = [1, 2, 3];
+            test.forEach(function(item, index) {
+              console.log(index);
+            });
+             /*
+             결과 :
+             0
+             1
+             2
+             */
+            ```
+
+            ```javascript
+            var arr = ['가', '나', '다', '라']
+            arr.foreach(function(item,index,arr2){
+              console.log(item, index, arr2[index+1]);
+              })
+              /*
+              결과 :
+              가 0 나
+              나 1 다
+              다 2 라
+              라 3 undefined
+              */
+            ```
