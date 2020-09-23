@@ -100,24 +100,27 @@ author:
   location         : "Seoul, Republic of Korea"
   email            : "daaan0415@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      #url: "mailto:daaan0415@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/hochul.jang.9"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HocheolJang"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      #url: "mailto:daaan0415@gmail.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/hocheol_zhang/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/hochul.jang.9"
+    - label: "About Me"
+      icon: "fas fa-fw fa-link"
+      url: "https://hocheoljang.github.io/IntroduceMyself/index.html"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+
+
+
 
 # Site Footer
 footer:
