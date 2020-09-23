@@ -1,6 +1,6 @@
 ---
 title:  "TIL_JavaScript-3(타입변환, 대화상자, 연산자)"
-excerpt: "자바스크립트(입문) 정리합니다"
+excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
   - TIL
