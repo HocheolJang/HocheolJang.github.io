@@ -1,6 +1,6 @@
 ---
-title: "portfolio"
+title: "Portfolio"
 permalink: /portfolio/
-layout: portfolio
+layout: collection
 author_profile: true
 ---
