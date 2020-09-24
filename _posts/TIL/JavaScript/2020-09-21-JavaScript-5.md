@@ -1,12 +1,10 @@
 ---
-title:  "TIL_JavaScript-5(배열, 사용자정의함수 ) "
+title:  "JavaScript-5(배열, 사용자정의함수) "
 excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
-  - TIL
   - JavaScript
 tags:
-  - TIL
   - JavaScript
 comments: true
 toc: true
@@ -112,33 +110,62 @@ classes: wide
 
 ### 사용자정의함수(function)
 
-1. 이름만 존재하는 함수
+1. 함수선언식
 
     ```    
+    함수이름(); // 함수 실행전에 호출해도 실행가능
+    
     function 함수이름 (){
         함수가 호출되었을 때 실행할 문장;
     }
-    함수이름(); // 호출
+    함수이름(); // 함수 실행전에 호출해도 실행가능
     ```
 
-2. 매개변수를 입력하여 호출하는 함수
+2. 함수 표현식
 
+    ```    
+    상수();	// 함수 선언전에 호출 불가능
+
+    const 상수 = function(){	// 익명함수
+	    실행문;
+    }
+    상수();	// 함수 선언후에 사용 가능
+    ```    
+
+3. 매개변수를 입력하여 호출하는 함수
+   - 디폴트 매개변수 : 함수를 호출할 때 명시된 인수를 전달하지 않았을 경우에 사용하게 될 기본값
+   - 나머지 매개변수 : 생략 접두사(...)를 사용하여 특정 위치의 인수부터 마지막 인수까지를 한 번에 지정할 수 있다
     ```    
     function 함수이름(매개변수1, 매개변수2 ..){
         함수가 호출되었을 때 실행할 문장;
     }
     함수이름(값1, 값2, ...); // 호출
+   
+    const 상수 = function(매개변수1, 매개변수2 ..){
+	    실행문;
+    }
+    상수(값1, 값2 ...);
     ```
 
-    - 디폴트 매개변수 : 함수를 호출할 때 명시된 인수를 전달하지 않았을 경우에 사용하게 될 기본값
+    - 디폴트 매개변수
 
     ```    
     function 함수이름 (매개변수 1 = 값1, 매개변수 2= 값2..){
     함수가 호출되었을 때 실행할 문장;
     }
+    함수이름(); // 값1, 값2가 기본값으로 설정
     ```
 
-    - 나머지 매개변수 : 생략 접두사(...)를 사용하여 특정 위치의 인수부터 마지막 인수까지를 한 번에 지정할 수 있다
+    ```javascript   
+    //example
+    const cal = function(num1=1, num2=1){   // 디폴트 매개변수
+    console.log(`${num1} + ${num2} = ${num1 + num2}`);
+    console.log(`${num1} - ${num2} = ${num1 - num2}`);
+    console.log(`${num1} * ${num2} = ${num1 * num2}`);
+    console.log(`${num1} / ${num2} = ${num1 / num2}`);
+    ```
+
+    - 나머지 매개변수
    
     ```    
     function 함수이름(매개변수1, ...매개변수2){
@@ -146,4 +173,100 @@ classes: wide
     }
     ```
     
+    ```javascript   
+    //example
+    function func3(x1, x2, ...x3){
+    console.log(`x1의 값 : ${x1}`);
+    console.log(`x2의 값 : ${x2}`);
+    console.log(`x3의 값 : ${x3}`);
+    }
+    ```
+        
+4. 리턴값이 있는 함수
+    ```    
+    function 함수이름(매개변수1, 매개변수2 ..){
+	    실행문;
+	    return 값;
+    }
+    let 변수 = 함수이름(값1, 값2..);	// return 값이 변수에 저장
+    ```
+       
+    ```javascript
+    //example
+    function func4(start, end){
+    let sum = 0;
+    for(let i=start; i<=end; i++){
+        sum += i;
+    }
+    return sum ;
+    ```
+
+5. 함수 표현식에서 이름이 있는 함수
+    ```    
+    const 상수 = function 함수이름(매개변수1, 매개변수2 ..){
+	    실행문;
+	    ..
+	    함수이름();
+	    return 값;
+    }
+
+    함수이름(값1, 값2..); (X)
+    상수(값1, 값2..); (O)
+    ```    
+
+6. 함수를 만들고 직접 호출하는 함수
+    ```        
+    (function(){
+	    실행문;
+	    ..
+    })();
+    ```    
+
+7. 화살표 함수
+    - ECMA6에 추가된 문법. function 키워드를 사용하여 함수를 만들 것보다 간단하게 표현한다. 화살표 함수는 항상 익명이다.
+
+    ```    
+    ex. 일반 함수
+    const Hello1 = function() { console.log('안녕하세요. JavaScript') }
+    Hello1();
+
+    ex. 화살표 함수
+    const Hello1 = () => console.log('안녕하세요. JavaScript');
+    Hello1();
+    ```    
+    ```javascript
+    
+    ```
+   
+    매개변수가 있는 경우
+    ```javascript
+    const Hello1 = x => console.log(x);
+    func2(10);
+    
+    const Hello1 = (x, y) => x + y;
+    const result = Hello1(10, 3); // 13
+
+    const Hello1 = (x, y) => {
+        let sum = 0;
+        for(let i = x; i <= y; i++){
+            sum += i;
+        }
+        return sum;
+    }
+    const result = Hello1(1, 10); // 55
+    ```    
+   
+- {} 를 사용하면 return 키워드를 반드시 작성해야한다.
+    ```javascript
+    const func5 = (x, y) => x + y;
+    const result = func5(10, 3);	// 13
+    const func6 = (x, y) => { x + y };
+    const result = func6(10, 3);	// undefind
+    ```    
+
+- TIP. "호이스팅"
+    - 자바스크립트 엔진이 script 태그를 만나면 자바스크립트 파일을 먼저 읽고 선언된 함수를 메모리에 저장합니다.
+    이 과정이 끝나면 코드가 위에서 부터 차례대로 실행되며 '함수 선언식'으로 만들어진 함수의 경우 메모리에 저장되어 있기 때문에 문제없이 실행되지만,
+    '함수 표현식'으로 만든 함수는 아직 값이 할당되기 전이기 때문에 에러가 발생합니다. 함수 선언식으로 선언된 함수는 '호이스팅' 된다고 표현합니다.
+
 

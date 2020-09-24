@@ -3,10 +3,8 @@ title:  "TIL_JavaScript-2(변수, 상수, 데이터타입)"
 excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
-  - TIL
   - JavaScript
 tags:
-  - TIL
   - JavaScript
 comments: true
 toc: true
