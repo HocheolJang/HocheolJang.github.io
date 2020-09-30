@@ -54,7 +54,7 @@ classes: wide
     - 방법 2
         ```javascript
         const student = [
-        {num:1, name:'김사과', kor:90, math:100, eng:60} 
+        {num:1, name:'김사과', kor:90, math:100, eng:60},
         {num:2, name:'반하나', kor:90, math:100, eng:60} 
         ]
         console.log(student[0]) // 김사과
@@ -65,8 +65,12 @@ classes: wide
     - 프로퍼티는 키(이름)와 프로퍼티 값으로 구성됩니다. 키로 유일하게 값을 식별할 수 있습니다.
     프로퍼티키는 프로퍼티를 식별하기위한 식별자이며, 프로퍼티 값으로 사용할 수 있는 값은 빈 문자열을 포함하는 모든 문자열 또는 symbol값입니다.
 
-- 객체를 생성하는 방법
-
+- 객체를 생성하는 3가지 방법
+    ```
+    1. 리터럴
+    2. 생성자 (가장 보편적)
+    3. 클래스 (앞으로의 추세로 갈듯. 다른언어가 가장 많이 쓰는 방법이기때문에)
+    ```
     1. 리터럴 표기법을 이용한 객체의 생성  
         - 자바스크립트에서 객체를 생성하는 가장 쉽고, 간단한 방법이다.
         ```
@@ -240,7 +244,7 @@ classes: wide
          }
         function set금액(price){
         if(price<0){
-            나가버려 ~
+            나가버려
         }
         this.price = price;
         }
@@ -368,9 +372,76 @@ classes: wide
         const str = 'JavaScript';
         const strobj = new String('JavaScript');
         
-        (str == strObj); // true
-        (str === strobj); // false
+        (str == strObj); // true, 값만 비교,
+        (str === strobj); // false, 값과 형까지 비교, str은 string이고 strobj는 object이다.
         ```
+      
+        ```javascript
+        const str1 = '안녕하세요. JavaScript';
+        
+        console.log(str1.length); // 10 (글자수 카운트)
 
+        console.log(str1.indexOf('j')); // 찾지 못했기 때문에 -1 출력됨
+        console.log(str1.indexOf('a')); // 여러개의 a중 처음 나오는 문자 순서출력, 8
+        console.log(str1.indexOf('Java'));  // 문자열인 경우 첫번째 문자 위치를 검색 7
+        
+        console.log(str1.charAt(8)); // a
+
+        console.log(str1.includes('Java')); // 대소문자 구별한다. true
+        console.log(str1.includes('java')); // 대소문자 구별한다. false
+        
+        console.log(str1.substring(7)); // JavaScript // 매개변수가 1개일 경우 해당 위치부터 끝까지
+        console.log(str1.substring(7, 11)); // Java
+        console.log(str1.substr(7, 4)); // Java
+
+        const str2 = "김사과|오렌지|반하나|이메론|박수박|오피치";
+        const student = str2.split("|");
+        for(let stu of student){
+            console.log(stu);
+        } // 한 명씩 순서대로 출력됨
+
+        console.log(str1.replace('안녕하세요.', 'Hello!'));
+
+        const str3 = "          JavaScript          ";
+        console.log(`|${str3}|`); //           JavaScript          출력
+        console.log(`|${str3.trim()}|`); // |JavaScript| 출력
+
+        console.log(str3.toLowerCase()); // javascript
+        console.log(str3.toUpperCase()); // JAVASCRIPT
+        ```      
+
+    - Date 객체
+        - 날짜, 시간등을 쉽게 처리할 수 있는 내장 객체입니다. 굉장히 많이 쓰인다.
+        ```javascript
+        const startDate = "2020-09-20 10:17:00";
+        // 2020년 9월 20일 10시 17분 처럼 표기하려면 substr등으로 값을 분리해준 후 해야한다.      
+        ```      
+        - 연도(year)
+            - 2자리로 표기하게되면 1900년 ~ 1999년을 이야기하는 것
+            - 4자리로 표기해야한다. (2000 ~ )
+        - 월 (month) : 0월(일반적인 1월)부터 11월(일반적인 12월)까지 있어
+        - 시 (hour) : 0 ~ 24시 표현가능
+        - 분 (minute) : 0분 ~ 59분
+        - 초 (seconds) : 0초 ~ 59초
+
+    - Date 객체 만드는 방법
+        ```          
+        new Date() : 현재 날짜 시간을 저장한 객체가 만들어집니다.
+        ex)
+        const currentTime = new Date(); 
+        new Date("날짜 문자열") : 해당 특정 날짜와 시간을 가리키는 객체가 만들어집니다.
+    
+        const thisDate = new Date("2020-09-20 10:25:00")
+        ``` 
+             
+        ```              
+        new Date("밀리초") : 1970년 1월 1일 0시 ~ 해당 밀리초만큼 지난 날짜 객체가 만들어집니다
+        ex ) 타임스템프
+        new Date("2000") = 1970년 1월 1일 0시 0분 2초
+        예전에 많이 쓰던 방법이다
+        2038년 1월 19일 3분 14초까지가 최대치이다 (PC에서 쓸 수 있는 최대치)
+    
+        new Date(년, 월, 일, 시, 분, 초, 밀리초) : 해당 특정날짜시간을 가리키는 객체가 만들어집니다
+        ```      
 
 
