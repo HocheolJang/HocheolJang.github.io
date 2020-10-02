@@ -1,5 +1,5 @@
 ---
-title:  "JavaScript-6(객체) "
+title:  "JavaScript-6(객체-1) "
 excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
@@ -425,11 +425,11 @@ classes: wide
         - 초 (seconds) : 0초 ~ 59초
 
     - Date 객체 만드는 방법
-        ```          
-        new Date() : 현재 날짜 시간을 저장한 객체가 만들어집니다.
-        ex)
+        ```javascript      
+        new Date() // 현재 날짜 시간을 저장한 객체가 만들어집니다.
+        // ex)
         const currentTime = new Date(); 
-        new Date("날짜 문자열") : 해당 특정 날짜와 시간을 가리키는 객체가 만들어집니다.
+        new Date("날짜 문자열") // 해당 특정 날짜와 시간을 가리키는 객체가 만들어집니다.
     
         const thisDate = new Date("2020-09-20 10:25:00")
         ``` 
