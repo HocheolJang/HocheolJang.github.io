@@ -15,6 +15,14 @@ classes: wide
 
 ### 객체 (object)
 
+
+
+</a>
+
+
+
+
+
 - 브라우저 객체 모델(Browser Object Model)
     - 웹 브라우저에 구현된 JavaScript 객체 모델을 의미하며 window 객체의 프로퍼티로 조회할 수 있다.
     - Window객체 밑에 있다. (최상위 객체이기때문에 window라는 말을 써도되고 안써도 된다.)
@@ -25,7 +33,7 @@ classes: wide
         for(let win in window){
             console.log(`${win} : ${window[win]}`);
         }
-    ```  
+    ```
 
     (화면의 일부만 가져왔습니다)
     <a href="https://ibb.co/fqqT9x9"><img src="https://i.ibb.co/n66KBLB/2020-10-01-11-13-29.png" alt="2020-10-01-11-13-29" border="0"></a>
@@ -46,7 +54,7 @@ classes: wide
     function Hi(){
         alert("안녕하세요. JavaScript");
     }
-    ```  
+    ```
   
     ```javascript  
     setInterval() // 일정 시간마다 매개변수로 제공된 함수를 실행합니다
@@ -76,9 +84,9 @@ classes: wide
             console.log('Hi() 중지되었습니다.');
             clearInterval(si);
         }
-  
+    
     <button onclick="clearInterv()">중지</button> // 클릭시 인터벌 중지.
-    ```    
+    ```
 
 - location 객체
     - 현재 브라우저의 표시된 HTML 문서의 주소를 얻거나, 브라우저에 새 문서를 불러올 때 사용합니다. 
@@ -99,7 +107,7 @@ classes: wide
                hostname
                               -------------
                               pathname
-        ```    
+        ```
     위의 내용은 '유저가 어떤 페이지를 보고있는가?' '어떤 루트로 들어왔는가?' 확인할 때 이걸 많이 쓴다.
 
     ```javascript
@@ -107,7 +115,7 @@ classes: wide
         console.log(`현재 문서의 protocol은 : ${location.protocol} 입니다.`);
         console.log(`현재 문서의 hostname은 : ${location.hostname} 입니다.`);
         console.log(`현재 문서의 pathname은 : ${location.pathname} 입니다.`);
-    ```    
+    ```
   
     ```javascript
     <form name="myform">
@@ -131,7 +139,7 @@ classes: wide
                 location.href = '5_setInterval함수.html';
             }
         }
-    ```    
+    ```
   
 - history 객체
     - 브라우저의 history 정보를 문서와 문서 상태 목록으로 저장하는 객체입니다
@@ -304,4 +312,4 @@ classes: wide
         </div>
         </body>
         ```
-      
+    
