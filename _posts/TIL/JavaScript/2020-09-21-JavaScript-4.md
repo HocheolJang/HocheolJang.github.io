@@ -1,5 +1,5 @@
 ---
-title:  "TIL_JavaScript-4(제어문 - 조건문, 반복문) "
+title:  "JavaScript-4(제어문 - 조건문, 반복문) "
 excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
