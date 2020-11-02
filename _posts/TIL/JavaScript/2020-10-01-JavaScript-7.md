@@ -1,5 +1,5 @@
 ---
-title:  "JavaScript-7(객체-2) "
+title: "JavaScript-7(객체-2) "
 excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
@@ -10,18 +10,9 @@ comments: true
 toc: true
 toc_sticky: true
 classes: wide
-
 ---
 
 ### 객체 (object)
-
-
-
-</a>
-
-
-
-
 
 - 브라우저 객체 모델(Browser Object Model)
     - 웹 브라우저에 구현된 JavaScript 객체 모델을 의미하며 window 객체의 프로퍼티로 조회할 수 있다.
