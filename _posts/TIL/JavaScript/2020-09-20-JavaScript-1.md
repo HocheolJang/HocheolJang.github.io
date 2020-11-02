@@ -1,6 +1,6 @@
 ---
-title:  "[JavaScript-1] 자바스크립트의 역사와 특징을 알아봅시다!"
-excerpt: "자바스크립트는 어떻게 생겨났고 어떤 특징이 있는지 알아볼까요? "
+title:  "JavaScript-1(역사, 특징)"
+excerpt: "자바스크립트(입문용) 정리합니다"
 
 categories:
   - JavaScript
@@ -23,7 +23,6 @@ JavaScript가 잘 성장하자 마이크로소프트는 그걸 은근히 빼껴 
 윈도우도 맥의 OS를 빼껴서 만든거라고 하더라. 그 이후 넷스케이프도 컴파일해서 빼낀 것이 익스플로어였고 이게 WindowOS에 묻어서 대박이 나며
 브라우저 전체 시장의 점유율 90%를 만들게 되었다)
 
-참고자료 : [위키백과](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
 
 ### 2. JavaScript의 특징
 
