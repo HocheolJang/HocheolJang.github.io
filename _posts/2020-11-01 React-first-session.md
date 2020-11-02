@@ -22,5 +22,6 @@ render 는 method는 JSX형태를 return 해줘야한다
 
 JSX 문법
 
- 이렇게
+ 이렇게 저렇게
+ 시도중
  
