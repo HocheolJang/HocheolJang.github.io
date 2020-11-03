@@ -5,10 +5,19 @@ _site
 Gemfile.lock
 
 
+### custom ###
+
+/node_modules
+.idea
+.jekyll-cache/Jekyll/Cache
+/categories
+/public
+/root
+
+
 ### Gulp ###
 package.json
 /node_modules/
-
 
 ### Atom ###
 .ftpconfig
