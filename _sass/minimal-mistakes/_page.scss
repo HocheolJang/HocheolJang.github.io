@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  // padding-left: 1em;
-  // padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -27,7 +27,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -88,22 +88,27 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			left: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .header-link {
+      position: relative;
+      left: 0.5em;
+      opacity: 0;
+      font-size: 0.8em;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -246,8 +251,8 @@ body {
 }
 
 /*
-   Social sharing
-   ========================================================================== */
+     Social sharing
+     ========================================================================== */
 
 .page__share {
   margin-top: 2em;
@@ -275,8 +280,8 @@ body {
 }
 
 /*
-   Page meta
-   ========================================================================== */
+     Page meta
+     ========================================================================== */
 
 .page__meta {
   margin-top: 2em;
@@ -299,15 +304,15 @@ body {
   text-transform: uppercase;
 }
 
-.post__meta-sep::before {
+.page__meta-sep::before {
   content: "\2022";
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
 /*
-   Page taxonomy
-   ========================================================================== */
+     Page taxonomy
+     ========================================================================== */
 
 .page__taxonomy {
   .sep {
@@ -403,8 +408,8 @@ body {
 }
 
 /*
-   Comments
-   ========================================================================== */
+     Comments
+     ========================================================================== */
 
 .page__comments {
   float: left;
@@ -501,8 +506,8 @@ body {
 }
 
 /*
-   Related
-   ========================================================================== */
+     Related
+     ========================================================================== */
 
 .page__related {
   @include clearfix();
@@ -533,8 +538,8 @@ body {
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+     Wide Pages
+     ========================================================================== */
 
 .wide {
   .page {
@@ -556,7 +561,4 @@ body {
       padding-right: 0;
     }
   }
-}
-.scrollbar__hide::-webkit-scrollbar {
-  display:none;
 }
