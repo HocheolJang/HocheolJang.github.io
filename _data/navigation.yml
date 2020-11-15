@@ -1,79 +1,12 @@
 # main links
 main:
-  - title: "Portfolio"
-    url: /collection/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "연도별 포스트"
-    url: /year-archive/
-
-posts:
-  - title: Front-End
-    children:
-      - title: "JavaScript"
-        url: /categories/#Javascript
-
-  - title: Studying
-    children:
-      - title: "TIL"
-        url: /categories/#TIL
-      - title: "Studying"
-        url: /categories/#Studying
-
-  - title: Project
-    children:
-      - title: "USStock"
-        url: /categories/#USStock
-
-  - title: ETC
-    children:
-      - title: "Thinking"
-        url: /categories/#Thinking
-      - title: "etc"
-        url: /categories/#etc
-
-#  - title: Back-End
-#    children:
-#      - title: "Spring"
-#        url: /categories/#spring
-#      - title: "Play Framework"
-#        url: /categories/#playframework
-#      - title: "Linux"
-#        url: /categories/#linux
-#      - title: "DB"
-#        url: /categories/#db
-
-#  - title: Client
-#    children:
-#      - title: "iOS"
-#        url: /categories/#ios
-#  - title: Programming
-#    children:
-#      - title: "Java"
-#        url: /categories/#java
-#      - title: "Scala"
-#        url: /categories/#scala
-#      - title: "Docker"
-#        url: /categories/#docker
-#      - title: "Elasticsearch"
-#        url: /categories/#elasticsearch
-#      - title: "Nginx"
-#        url: /categories/#nginx
-#      - title: "Service"
-#        url: /categories/#service
-#      - title: "Blog Dev"
-#        url: /categories/#blog
-#      - title: "IDE"
-#        url: /categories/#ide
-#      - title: "Git"
-#        url: /categories/#git
-#      - title: "Etc"
-#        url: /categories/#programming
-
-
-#    url: /posts/
-
-# - title: "Sitemap"
-#   url: /sitemap/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

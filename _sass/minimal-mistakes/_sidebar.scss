@@ -30,8 +30,8 @@
     &.sticky {
       overflow-y: auto;
       /* calculate height of nav list
-           viewport height - nav height - masthead x-padding
-        */
+         viewport height - nav height - masthead x-padding
+      */
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
@@ -111,8 +111,8 @@
 }
 
 /*
-     Author profile and links
-     ========================================================================== */
+   Author profile and links
+   ========================================================================== */
 
 .author__avatar {
   display: table-cell;
@@ -209,7 +209,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: "";
+        content: '';
         position: fixed;
         top: 0;
         left: 0;
@@ -318,8 +318,8 @@
 }
 
 /*
-     Wide Pages
-     ========================================================================== */
+   Wide Pages
+   ========================================================================== */
 
 .wide .sidebar__right {
   margin-bottom: 1em;
@@ -343,3 +343,4 @@
     margin-right: initial;
   }
 }
+
