@@ -11,9 +11,6 @@ main:
   - title: "연도별 포스트"
     url: /year-archive/
   - title: "포트폴리오"
-    url: /portfolio/
+    url: /collection/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-
-  
