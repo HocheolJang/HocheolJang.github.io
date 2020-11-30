@@ -59,10 +59,12 @@ toc_sticky: true
 
 ### 0. 전체 Flow 유튜브 영상
 
-#### 0.1 [Store / OOTD](https://youtu.be/R5B5GT-giVY)
+#### 0.1 Store / OOTD
+{% include video id="R5B5GT-giVY" provider="youtube" %}
 
+#### 0.2 로그인 / 회원가입
+{% include video id="jlvjuR4RBWk" provider="youtube" %}
 
-#### 0.2 [로그인 / 회원가입](https://youtu.be/jlvjuR4RBWk)
 
 ### 1. 메인화면
 
