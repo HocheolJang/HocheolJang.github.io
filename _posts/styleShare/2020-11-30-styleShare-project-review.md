@@ -25,18 +25,18 @@ toc_sticky: true
 - 일 정 : 2020년 11월 16일 (월) ~ 11월 27일 (금), 12일간 진행
 
 - 팀 구성 / 기술 스택 ( 총 6명 )
-	- 프론트엔드 (Front-End) : 장호철 (PM), 엄문주, 박현재 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-1st-StyleCode-frontend/)
+  - 프론트엔드 (Front-End) : 장호철 (PM), 엄문주, 박현재 (3명) / 참고 : 
     - React
     - JavaScript (ES6+)
     - HTML / CSS
     - SASS
     - Git / Github 
-	- 백엔드 (Back-End) : 백승찬, 정현석, 김민구 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-1st-StyleCode-backend)
-		- Django
-		- Python
-		-  bcypt
-		-  Decorator
-	
+  - 백엔드 (Back-End) : 백승찬, 정현석, 김민구 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-1st-StyleCode-backend)
+  	- Django
+  	- Python
+  	-  bcypt
+  	-  Decorator
+
 - 주요 구현 사항 (Bold로 표기된 것은 제가 작업한 영역입니다 )
 	- Store
 		- **메인화면 (Jumbotron Slider,  Menu Tab)**
@@ -52,6 +52,7 @@ toc_sticky: true
 ## 후기
 
 <img src="https://i.ibb.co/wLcNDrZ/image.jpg" style="zoom:50%"/>
+
 '만약 시간이 더 있었더라면...' 열심히 했지만 아쉬움이 많은 프로젝트다. 나는 PM으로서 모든 페이지, 모든 기능을 구현할 수 없었다. 우선순위에 따라서 해야할 일과 포기해야할 것을 결정해야했다. 그래서 내가 담당했던 페이지에서도 전체적인 뼈대를 잡고 계속 도전해보고 안되는 것은 포기해야했다. 실력이 더 좋았다면 모든 것을 다 할 수 있었겠지만...어쩔 수 없이 포기해야하는 것이 있음을 또 다시 배웠던 시간들...
 프론트엔드는 정말 모든게 다 손이 가는 일이다. 물론 좋은 라이브러리도 있다고 하지만 페이지의 거의 대부분은 다 손으로 하는것이다. 위치를 잡아주는 것, 애니메이션, 버튼 커서, 색깔들 정말 손이 많이 가는 일이다 ㅎㅎㅎ그래도 다행인 것은 난 이런 것들이 너무 즐겁다. 하나하나 내 손으로 만들어가는 재미가 진짜 쏠쏠하다. 다음에는 분명 지금보다 더 잘할 수 있으리라고 확신한다. 왜 많은 프로젝트를 하면 더 좋은지 느끼게 됐다. 지금에 멈추지않고 계속 프로젝트를 다 해보자 ! 할수록 내 재산이 쌓일 것이다 ! 
 
@@ -66,6 +67,8 @@ toc_sticky: true
 {% include video id="jlvjuR4RBWk" provider="youtube" %}
 
 
+
+
 ### 1. 메인화면
 
    <img src="https://i.ibb.co/f0ZZmrp/Kapture-2020-11-30-at-08-46-53.gif" style="zoom:67%;" />
@@ -74,25 +77,26 @@ toc_sticky: true
 백엔드측에서 이것까진 따로 통신하지말고 그냥 목업 데이터로 하면 어떻겠냐고 해서 모든 이미지, 텍스트 하나하나 다 내가 작성하면서 만들었다. 그래도 예전에 마케터였다고 카피하나하나 조금 더 정성스럽게 쓰고싶더라. 개발자를 준비하고 있긴 하지만 그래도 지난 3년간 마케팅을 했던 것을 하루아침에 버릴 수는 없을테니...기획전명도 다 고르고 스타일쉐어랑 비슷하게 하면서도 또 동시에 나답게 쓰려고 노력했다. 지금 다시 보니 작은 아이콘 하나하나까지 다 새록새록 기억이 난다.
 
 <img src="https://i.ibb.co/mzh6X30/2020-11-29-7-08-43.png" style="zoom:67%"/>
+
 (세상 아름다운 내 메인페이지 ! 이렇게 컴포넌트로 다 작성하고 불러오는 것 너무 기분이 좋다)
 
 #### 1.1 점보트론
-<img src = "https://i.ibb.co/dW5s82R/jumbotron.gif" style="zoom:67%"/>
+<img src = "https://i.ibb.co/dW5s82R/jumbotron.gif"/>
 
 리액트의 훌륭한 라이브러리 [slick](https://react-slick.neostack.com/) 덕분에 편하고 빠르게 작업할 수있었다. 처음에는 translateX를 이용해서 해야하나 고민했었지만, 세원님이 알려준 slick을 사용해서 작업했다. 아주 깔끔하게 작업할 수 있어서 너무 좋았다. 좌우로 넘기는 버튼 구현하는 것이 조금 까다로웠다. slick에서 기본제공해주는 것은 화면 밖에 있어서 내가 원하는 요건을 그대로 구현하기 어려웠다. 이건 검색해보니 ref를 이용할 수 있어서 그걸로 구현했다.
 
 #### 1.2 인기상품
-<img src="https://i.ibb.co/sbtG4tm/popular-Product.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/sbtG4tm/popular-Product.gif"/>
 
 멘토님이 알려주신 방법으로 구현하긴 했지만 솔직히 조금 비효율적으로 구현한 것같다. 만약 각 메뉴탭별로 페이지 레이아웃이 달랐으면 모르겠지만, 나는 다 같은 형태였는데 각 컴포넌트를 따로 만들어서 불러오는 형태로 만들었다. componentDidMount를 쓰면 더 편하게 할 수 있다고 이야기를 듣긴 했지만 아직 완전히 숙지가 되지않아서 우선 급한대로 하나씩 불러오는 형태로 다 구현했다. 썩 좋은 그림은 아니지만 우선 어떻게든 되게 했다는 것에 의의를 두고있다...
 
 #### 1.3 인기 브랜드
-<img src="https://i.ibb.co/0hv3BR0/popular-Brand.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/0hv3BR0/popular-Brand.gif"/>
 
 페이지의 이미지 비율때문에 조금 고생했다. 이것도 jumbotron처럼 비교적 쉽게 만들긴 했지만 이미지 비율이 계속 깨지고, 2개는 온전한 이미지 좌우로 절반씩 보여지는 이미지를 구현하는데 약간 헤맸었던 기억 ㅎㅎ 그래도 예쁘게 잘 나왔다!
 
 #### 1.4 트렌드 기획전
-<img src="https://i.ibb.co/m5HtJTW/trend.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/m5HtJTW/trend.gif"/>
 
 좌우 컨테이너를 나눠서 odd/even으로 데이터를 불러왔는데 코드가 중복으로 겹쳤다. 똑같은 형태인데 좌우로 나눈것밖에 없었으니...다음엔 조금 더 간결한 코드로 구현해보고싶은 곳.
 
@@ -103,22 +107,22 @@ footer를 구현할 때쯤 확실히 flex에 대한 이해도가 매우 높아�
 
 
 ### 2. 카테고리 페이지
-<img src="https://i.ibb.co/g73YjWv/category2.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/g73YjWv/category2.gif"/>
 
 깔끔하게 잘 구현됐지만, 시간적 여유만 더 있었으면 조금 더 욕심내고싶었던 페이지다. 무한스크롤링이랑, 좌측의 사이드바의 세부카테고리로 가는 기능을 구현하지 못했다. 처음 생각했을 때는 쉽게 할 수 있으리라 생각했지만 그리 쉽지는 않았다. 다음에 다른 프로젝트 때 꼭 다시 도전해봐야지!
 
 #### 2.1 카테고리페이지 점보트론
-<img src="https://i.ibb.co/rQ0F2kH/category-Jumbotron.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/rQ0F2kH/category-Jumbotron.gif"/>
 
 다 구현한 것같지만 아래의 현재 페이지 넘버를 구현하지 못했다. 단순히 넘길 때만 페이지 넘버를 표현해주면 모르겠지만, 3초에 한 번씩 넘어갈 때마다 같이 구현해줘야하는데 그걸 구현하려다가 너무 작은 부분인 것같아서 포기했다. 아쉬운 부분...다음에는 꼭 방법을 찾아내리라...
 
 #### 2.2 MD's 추천
-<img src="https://i.ibb.co/Fw0xC6M/mdChoice.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/Fw0xC6M/mdChoice.gif"/>
 
 pagination 구현했을 때 너무 기뻤던 기능. library가 아니라 스스로 구현함 ! 현재 페이지에 따라 backend로부터 데이터를 fetch 받아 구현했다.
 
 #### 2.3 전체 보기 (Sorting기능)
-<img src="https://i.ibb.co/gPfj8bL/sorting.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/gPfj8bL/sorting.gif">
 
 원래는 이 부분에 무한 스크롤링을 구현해야하는데, 그것까진 하지못했다. 시간적 여유가 있었으면 했겠지만 아쉽다. 그래도 sorting은 백엔드분과 잘 이야기해서 진행할 수 있었다. sorting하는 방법은 2가지가 있다. 프론트에서 모든 데이터를 받아서 sorting하고 보여주는 방법과 프론트에서 request를 보내면 백엔드에서 sorting해서 response하는 방법. 나와 현석님은 현석님이 sorting해보고싶다고 해서 백엔드에서 sorting하는 방법을 택했다. 그것동안 나는 클릭시 탭이 내려오는 것과 화살표 애니메이션 했었는데 재밌었다. 집에서 딱 완성됐는데 새벽1시에 아주 작게 소리를 질렀다! 그날밤 아주 기분 좋게 잤던 기억이 아직도 생생하다
 
@@ -127,21 +131,21 @@ pagination 구현했을 때 너무 기뻤던 기능. library가 아니라 스스
 백엔드와의 통신의 묘미를 느꼈던 화면. 페이지의 모든 기능들(가격 조정되는 것 제외)이 백엔드와 통신을 한다. 최초에 고객의 토큰을 기준으로 장바구니에 물건이 담겼는지 안담겼는지 확인하고, 담겨있다면 장바구니의 내용을 받아왔다. 그리고 수량조절하거나 삭제하면 다시 백엔드로 그 정보를 보내준다. 수량을 하나 조절할 때마다 통신을 하는게 좋은 방법인지 한꺼번에 다 정리된 자료를 통신하는게 좋은지 잘 모르겠지만, 그래도 그렇게 DB에 업데이트해줬다. checkbox도 더 열심히 했어야하는데 시도하다가 시간적 여유가 부족해서 포기했던 기능. 다음에는 꼭 하리라 !
 
 #### 3.1 장바구니 수량 조절
-   <img src="https://i.ibb.co/DDNB8W2/quantity.gif" style="zoom:67%;" />
+   <img src="https://i.ibb.co/DDNB8W2/quantity.gif"/>
 
 #### 3.2 장바구니 삭제
-   <img src="https://i.ibb.co/FwTbLGw/delete-Cart.gif" style="zoom:67%;" />
+   <img src="https://i.ibb.co/FwTbLGw/delete-Cart.gif"/>
 
 삭제하고 렌더되는 것도 약간 부자연스럽다 ㅜㅜ 페이지가 렌더되는 것이 아니라 딱 그부분만 없어지도록 구현했어야하는데 그렇게 하지못했다. 일단 그런 느낌을 구현하기위해 노력했지만 앞으로는 조금 더 세심한 페이지를 만들고 싶다.
 
 ### 4. 검색 결과 페이지
-<img src="https://i.ibb.co/42QdJj7/search.gif" style="zoom:67%"/>
+<img src="https://i.ibb.co/42QdJj7/search.gif"/>
 
 '나이키'라고 검색했을 때 나오는 페이지를 최대한 구현하고자 노력했다. 원래 스타일쉐어에는 ootd와 연계된 부분이 이 페이지에 포함되지만 이 부분도 과감하게 들어냈다. 딱히 까다로운 것이 있는 것은 아니었고 단지 queryString을 이용해서 그냥 불러오도록만 했다. 페이지의 핵심만 익혔다랄까...?
 
+## 생각
 
-
-
+생각을 쓸 예정입니다
 
 
 
