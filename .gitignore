@@ -12,7 +12,7 @@ Gemfile.lock
 /public
 /root
 /node_modules
-
+.jekyll-cache
 
 ### Gulp ###
 /node_modules/
