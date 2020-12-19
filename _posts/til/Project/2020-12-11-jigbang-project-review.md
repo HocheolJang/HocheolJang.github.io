@@ -12,15 +12,15 @@ comments: true
 
 ---
 
-# StyleCode Project
+# Shabang Project
 
 <img src="https://i.ibb.co/1L79yWV/login-Logo.png" style="zoom:67%;" />
 
 ## Overview
 
-- 목 적 : [스타일쉐어](https://www.styleshare.kr/) 사이트를 클론하면서 리액트의 기본기를 향상한다
+- 목 적 : [직방](https://www.zigbang.com/) 사이트를 클론하면서 리액트의 기본기를 향상한다
 
-- 일 정 : 2020년 11월 16일 (월) ~ 11월 27일 (금), 12일간 진행
+- 일 정 : 2020년 11월 30일 (월) ~ 12월 11일 (금), 12일간 진행
 
 - 팀 구성 / 기술 스택 ( 총 6명 )
   - 프론트엔드 (Front-End) : 장호철 (PM), 엄문주, 박현재 (3명) / 참고 : 
