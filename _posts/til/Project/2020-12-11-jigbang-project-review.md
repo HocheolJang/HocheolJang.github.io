@@ -3,7 +3,7 @@ title: "[후기] 직방 클론 프로젝트"
 excerpt: "치열하게 고민하고 코딩했던 2주간의 기록을 최종적으로 정리합니다"
 
 categories:
-  - til
+  - TIL
 tags:
   - project
 comments: true
