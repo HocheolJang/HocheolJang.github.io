@@ -23,18 +23,22 @@ comments: true
 - 일 정 : 2020년 11월 30일 (월) ~ 12월 11일 (금), 12일간 진행
 
 - 팀 구성 / 기술 스택 ( 총 6명 )
-  - 프론트엔드 (Front-End) : 장호철 (PM), 엄문주, 박현재 (3명) / 참고 : 
+  - 프론트엔드 (Front-End) : 장호철, 김동하, 엄문주 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-2nd-SHABANG-frontend)
     - React
+    - Kakao Map API
+    - Kakao Login
+    - Google Login
+    - 
     - JavaScript (ES6+)
     - HTML / CSS
     - SASS
     - Git / Github 
-  - 백엔드 (Back-End) : 백승찬, 정현석, 김민구 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-1st-StyleCode-backend)
-  	- Django
+  - 백엔드 (Back-End) : 백승찬, 정현석, 김민구 (3명) / 참고 : [Github](https://github.com/wecode-bootcamp-korea/14-2nd-SHABANG-backend)
+	- Django
   	- Python
   	-  bcypt
   	-  Decorator
-
+  
 - 주요 구현 사항 (Bold로 표기된 것은 제가 작업한 영역입니다 )
 	- Store
 		- **메인화면 (Jumbotron Slider,  Menu Tab)**
