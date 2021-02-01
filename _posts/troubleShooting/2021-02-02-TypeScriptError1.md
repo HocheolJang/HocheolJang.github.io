@@ -24,10 +24,10 @@ TypeScript와 React 조합으로 초기 세팅하고 프로젝트를 하다가 �
 1. **VScode 상에서 command + shift + p 버튼을 눌러주세요 !**
 
 2. **'select typescript version' 입력**
-   <img src="https://ibb.co/k5Rdfhg">
+   <img src="https://i.ibb.co/Dzxqy7D/2021-02-02-1-29-55.png">
 
 3. **Use workspace Version 4.x.x 클릭**
-   ![](https://ibb.co/BgXHgX9)
+   ![](https://i.ibb.co/nDHqDHF/2021-02-02-1-30-09.png)
 
 아마 이렇게 하면 없어지실거에요 !
 혹시 위와 같은 문제를 겪으시는 분이 있다면 꼭 해결해보세요 !
